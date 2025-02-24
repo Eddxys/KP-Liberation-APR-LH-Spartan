@@ -131,14 +131,18 @@ private ["_fobPos", "_fobObjects", "_grpUnits", "_fobMines"];
     _allObjects = _allObjects + (_fobObjects select {!((toLowerANSI (typeOf _x)) in KPLIB_storageBuildings)});
     _allStorages = _allStorages + (_fobObjects select {(_x getVariable ["KPLIB_storage_type",-1]) == 0});
 
-    // Fetch all mines around FOB
+    // Fetch all player mines around FOB
     _fobMines = allMines inAreaArray [_fobPos, KPLIB_range_fob * 1.2, KPLIB_range_fob * 1.2];
-    _allMines append (_fobMines apply {[
-        getPosWorld _x,
-        [vectorDirVisual _x, vectorUpVisual _x],
-        typeOf _x,
-        _x mineDetectedBy KPLIB_side_player
-    ]});
+    {
+        if (side _x == KPLIB_side_player) then {
+            _allMines pushBack [
+                getPosWorld _x,
+                [vectorDirVisual _x, vectorUpVisual _x],
+                typeOf _x,
+                _x mineDetectedBy KPLIB_side_player
+            ];
+        };
+    } forEach _fobMines;
 } forEach KPLIB_sectors_fob;
 
 // Fetch all remaining blufor vehicles and supports that are not near a fob

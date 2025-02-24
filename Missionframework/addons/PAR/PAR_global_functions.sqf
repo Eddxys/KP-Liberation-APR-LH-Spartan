@@ -252,6 +252,8 @@ PAR_HandleDamage_EH = {
 PAR_Player_Unconscious = {
 	params [ "_unit", "_killer" ];
 
+	if (isClass (configfile >> "CfgPatches" >> "LEON_AutorunRework")) then { call LEON_Autorun_fnc_stopRunning };
+
 	R3F_LOG_joueur_deplace_objet = objNull;
 
 	// Death message
@@ -275,10 +277,6 @@ PAR_Player_Unconscious = {
 	// Mute Radio
 	5 fadeRadio 0;
 
-	// Dog barf
-	_my_dog = player getVariable ["my_dog", nil];
-	if (!isNil "_my_dog") then { _my_dog setVariable ["do_find", player] };
-
 	// PAR AI Revive Call
 	[_unit] spawn PAR_fn_unconscious;
 
@@ -301,8 +299,5 @@ PAR_Player_Unconscious = {
 
 		// Unmute ACRE
 		_unit setVariable ["ace_sys_wounds_uncon", false];
-
-		// Dog stop
-		if (!isNil "_my_dog") then { _my_dog setVariable ["do_find", nil] };
 	};
 };

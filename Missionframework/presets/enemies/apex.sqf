@@ -24,7 +24,7 @@ KPLIB_o_rifleman = "O_T_Soldier_F";                                     // Rifle
 KPLIB_o_riflemanLAT = "O_T_Soldier_LAT_F";                              // Rifleman (LAT)
 KPLIB_o_grenadier = "O_T_Soldier_GL_F";                                 // Grenadier
 KPLIB_o_machinegunner = "O_T_Soldier_AR_F";                             // Autorifleman
-KPLIB_o_heavyGunner = "O_T_HeavyGunner_F";                              // Heavy Gunner
+KPLIB_o_heavyGunner = "O_T_Soldier_AR_F";                              // Heavy Gunner
 KPLIB_o_marksman = "O_T_Soldier_M_F";                                   // Marksman
 KPLIB_o_sharpshooter = "O_T_Soldier_M_F";                               // Marksman
 KPLIB_o_sniper = "O_T_Sniper_F";                                        // Sniper
@@ -61,8 +61,7 @@ KPLIB_o_militiaInfantry = [
     "O_soldierU_AR_F",                                                  // Autorifleman
     "O_soldierU_M_F",                                                   // Marksman
     "O_soldierU_medic_F",                                               // Medic
-    "O_engineer_U_F",                                                   // Engineer
-    "O_soldierU_exp_F"                                                  // Explosive specialist
+    "O_engineer_U_F"                                                    // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.

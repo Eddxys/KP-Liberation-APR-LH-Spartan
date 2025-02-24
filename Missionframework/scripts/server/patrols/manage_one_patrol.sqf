@@ -36,6 +36,7 @@ while { KPLIB_endgame == 0 } do {
         };
     };
 
+    _destroyed = false;
     if (KPLIB_active_enemy_patrols < (count _usable_sectors)) then {
         KPLIB_active_enemy_patrols = KPLIB_active_enemy_patrols + 1;
 
@@ -92,7 +93,6 @@ while { KPLIB_endgame == 0 } do {
         };
 
         _vel = 12;
-        _destroyed = false;
         while { _patrol_continue } do {
             sleep (15 + (random 15));
             if ( count (units _grp) == 0  ) then {

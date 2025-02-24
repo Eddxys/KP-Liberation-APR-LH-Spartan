@@ -125,7 +125,7 @@ if (_spawn) then {
         };
 
         if (_sector in KPLIB_sectors_city) then {
-            if (KPLIB_enemyReadiness < 30) then {_infsquad = "militia";};
+            if (KPLIB_enemyReadiness < 25) then {_infsquad = "militia";};
 
             _squad1 = ([_infsquad] call KPLIB_fnc_getSquadComp);
             _squad2 = ([_infsquad] call KPLIB_fnc_getSquadComp);
@@ -198,7 +198,7 @@ if (_spawn) then {
         };
 
         if (_sector in KPLIB_sectors_factory) then {
-            if (KPLIB_enemyReadiness < 30) then {_infsquad = "militia";};
+            if (KPLIB_enemyReadiness < 25) then {_infsquad = "militia";};
 
             _squad1 = ([_infsquad] call KPLIB_fnc_getSquadComp);
             _squad2 = ([_infsquad] call KPLIB_fnc_getSquadComp);
