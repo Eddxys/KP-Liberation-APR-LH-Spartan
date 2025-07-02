@@ -63,12 +63,35 @@ KPLIB_o_militiaInfantry = [
     "LOP_AM_OPF_Infantry_AR",                                           // Autorifleman (PKM)
     "LOP_AM_OPF_Infantry_Rifleman_3",                                   // Marksman (Lee Enfield)
     "LOP_AM_OPF_Infantry_Corpsman",                                     // Medic (Bonesetter)
-    "LOP_AM_OPF_Infantry_Engineer"                                      // Engineer (Bomber)
+    "LOP_AM_OPF_Infantry_Engineer",                                      // Engineer (Bomber)
+	"LOP_ISTS_OPF_Infantry_Rifleman_5",
+	"LOP_ISTS_OPF_Infantry_GL",
+	"LOP_ISTS_OPF_Infantry_Rifleman_6",
+	"LOP_ISTS_OPF_Infantry_Rifleman",
+	"LOP_ISTS_OPF_Infantry_Rifleman_4",
+	"LOP_ISTS_OPF_Infantry_Rifleman_3",
+	"LOP_ISTS_OPF_Infantry_Rifleman_7",
+	"LOP_ISTS_OPF_Infantry_AR_Asst_2",
+	"LOP_ISTS_OPF_Infantry_AR_2",
+	"LOP_ISTS_OPF_Infantry_AR_Asst",
+	"LOP_ISTS_OPF_Infantry_AR",
+	"LOP_ISTS_OPF_Infantry_Rifleman_8",
+	"LOP_ISTS_OPF_Infantry_Rifleman_9",
+	"LOP_ISTS_OPF_Infantry_Marksman",
+	"LOP_ISTS_OPF_Infantry_AT",
+	"LOP_ISTS_OPF_Infantry_SL",
+    "LOP_TKA_Infantry_AA",
+    "LOP_TKA_Infantry_AA",
+    "O_soldier_UAV_F"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 KPLIB_o_militiaVehicles = [
-    "LOP_AM_OPF_UAZ_DshKM"                                              // UAZ-3151 (DShKM)
+    "LOP_AM_OPF_UAZ_DshKM",                                              // UAZ-3151 (DShKM)
+	"LOP_ISTS_OPF_Offroad_M2",                                        // Offroad (M2)
+	"LOP_ISTS_OPF_Offroad_AT",                                        // Offroad (AT)
+    "LOP_ISTS_OPF_M998_D_4DR",
+    "LOP_ISTS_OPF_M1025_D"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -86,7 +109,8 @@ KPLIB_o_armyVehicles = [
     "LOP_ISTS_OPF_T72BA",                                               // T72B
     "LOP_ISTS_OPF_T72BA",                                               // T72B
     "LOP_ISTS_OPF_ZSU234",                                              // ZSU-23-4V
-    "LOP_ISTS_OPF_ZSU234"                                               // ZSU-23-4V
+    "LOP_ISTS_OPF_ZSU234",                                               // ZSU-23-4V
+    "LOP_ISTS_OPF_M113_W"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -98,7 +122,8 @@ KPLIB_o_armyVehiclesLight = [
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
-    "LOP_ISTS_OPF_BTR60"                                                // BTR-60PB
+    "LOP_ISTS_OPF_BTR60",                                                // BTR-60PB
+    "LOP_ISTS_OPF_M113_W"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -122,7 +147,21 @@ KPLIB_o_battleGrpVehicles = [
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
-    "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
+    "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
+	"LOP_AM_OPF_BM21",                                              // BM-21
+    "rhs_btr80_vmf",
+    "rhs_btr80a_vmf",
+    "rhs_prp3_vmf",
+    "rhs_brm1k_vmf",
+    "rhs_t14_tv",
+    "rhs_t72ba_tv",
+    "rhs_t72bb_tv",
+    "rhs_t80",
+    "rhs_t80bk",
+    "rhs_t80bv",
+    "rhs_t80uk",
+    "rhs_t90_tv",
+    "rhs_t90sm_tv"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -142,17 +181,24 @@ KPLIB_o_battleGrpVehiclesLight = [
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
-    "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
+    "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
+    "rhs_btr70_vmf"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
-If something in this array can't hold all 8 soldiers then buggy behaviours may occur. */
+If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 KPLIB_o_troopTransports = [
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
-    "LOP_TKA_Mi8MT_Cargo"                                               // Mi-8MT (Cargo)
+    "LOP_TKA_Mi8MT_Cargo",                                               // Mi-8MT (Cargo)
+    "rhs_ka60_c",
+    "LOP_SYR_Ural_open",
+    "LOP_SYR_KAMAZ_Covered",
+    "LOP_SYR_Ural",
+    "LOP_TKA_Ural_open",
+    "LOP_TKA_Ural"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
@@ -160,11 +206,59 @@ KPLIB_o_helicopters = [
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
-    "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
+    "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
+    "RHS_Ka52_vvsc",
+    "rhs_mi28n_vvsc",
+    "RHS_Mi8MTV3_vvsc",
+    "LOP_SLA_Mi8MTV3_FAB",
+    "LOP_SLA_Mi8MTV3_UPK23"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
     "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "RHS_Su25SM_KH29_vvsc",                                              // Su-25 (KH29)
+    "rhs_mig29s_vvsc",
+    "rhs_mig29sm_vvsc",
+    "rhs_pchela1t_vvsc"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_HMG = [
+    "LOP_ISTS_OPF_NSV_TriPod",
+    "LOP_ISTS_OPF_Static_M2_MiniTripod",
+    "LOP_ISTS_OPF_Kord_High",
+    "LOP_ISTS_OPF_Kord",
+    "LOP_ISTS_OPF_Static_DSHKM"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_GMG = [
+    "LOP_ISTS_OPF_Static_Mk19_TriPod",
+    "LOP_ISTS_OPF_AGS30_TriPod"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AT = [
+    "LOP_ISTS_OPF_Static_SPG9",
+    "LOP_ISTS_OPF_Static_AT4"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AA = [
+    "LOP_ISTS_OPF_Static_ZU23",
+    "LOP_ISTS_OPF_Static_M2",
+    "LOP_ISTS_OPF_Igla_AA_pod"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_MORTAR = [
+    "rhs_2b14_82mm_msv",
+    "rhs_D30_at_msv",
+    "rhs_D30_msv"
+];
+
+// Enemy SAM turrets that will be spawned in the back country
+KPLIB_o_turrets_SAM = [
+    ["O_SAM_System_04_F", "O_Radar_System_02_F"]
 ];

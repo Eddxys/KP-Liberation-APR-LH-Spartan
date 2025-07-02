@@ -53,7 +53,7 @@
     29 = SFP (Desert)
     30 = LDF (Contact DLC)
 */
-KPLIB_presetPlayer = 0;
+KPLIB_presetPlayer = 7;
 
 /*
     ----- Enemy preset -----
@@ -79,7 +79,7 @@ KPLIB_presetPlayer = 0;
     19 = CUP British Armed Forces (Desert)
     20 = CUP British Armed Forces (Woodland)
 */
-KPLIB_presetEnemy = 0;
+KPLIB_presetEnemy = 4;
 
 /*
     ----- Resistance preset -----
@@ -93,7 +93,7 @@ KPLIB_presetEnemy = 0;
     7  = CUP Takistani Locals
     8  = CUP National Party of Chernarus
 */
-KPLIB_presetResistance = 0;
+KPLIB_presetResistance = 3;
 
 /*
     ----- Civilians preset -----
@@ -106,7 +106,7 @@ KPLIB_presetResistance = 0;
     6  = CUP Takistani Civilians
     7  = CUP Chernarussian Civilians
 */
-KPLIB_presetCivilians = 0;
+KPLIB_presetCivilians = 2;
 
 /*
     ----- Arsenal preset -----
@@ -370,7 +370,7 @@ KPLIB_defended_buildingpos_part = 0.4;
 KPLIB_vulnerability_timer = 1800;
 
 // Chance that enemy infantry will surrender after heavy losses are encountered.
-KPLIB_surrender_chance = 80;
+KPLIB_surrender_chance = 40;
 
 // When playing on this map, it'll create a clearance (remove terrain objects) in a 15m radius around the battlegroup/reinforcements spawnpoint.
 KPLIB_battlegroup_clearance = [

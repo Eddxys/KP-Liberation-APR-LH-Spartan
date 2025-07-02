@@ -150,5 +150,45 @@ KPLIB_arsenalBlacklist = [
     "uns_MK18_low_US_Bag",
     "uns_STABO_US_Bag",
     "uns_Tripod_Bag",
-    "Uns_US_searchlight_Bag"
+    "Uns_US_searchlight_Bag",
+    // Everything above is default blacklist by KP
+    "NVGogglesB_blk_F",
+    "NVGogglesB_grn_F",
+    "NVGogglesB_gry_F",
+    "O_NVGoggles_ghex_F",
+    "O_NVGoggles_grn_F",
+    "O_NVGoggles_hex_F",
+    "O_NVGoggles_urb_F",
+    // ^ NVG's with thermals/Too futuristic
+    "launch_B_Titan_F",
+    "launch_B_Titan_olive_F",
+    "launch_B_Titan_short_F",
+    "launch_B_Titan_short_tna_F",
+    "launch_B_Titan_tna_F",
+    "launch_I_Titan_eaf_F",
+    "launch_I_Titan_F",
+    "launch_I_Titan_short_F",
+    "launch_O_Titan_F",
+    "launch_O_Titan_ghex_F",
+    "launch_O_Titan_short_F",
+    "launch_O_Titan_short_ghex_F",
+    "Titan_AA",
+    "Titan_AP",
+    "Titan_AT",
+    // ^ Titan Launchers, both compact (AT) and Full size (AA), and their mags/ammo
+    "H_HelmetO_ViperSP_hex_F",
+    "H_HelmetO_ViperSP_ghex_F",
+    "U_O_V_Soldier_Viper_F",
+    "U_O_V_Soldier_Viper_hex_F",
+    "U_I_Protagonist_VR",
+    "U_O_Protagonist_VR",
+    "U_B_Protagonist_VR",
+    "U_C_Protagonist_VR",
+    // ^ Special Purpose CSAT helmets + suits, VR sutis, have thermals and OP as hell
+    "MineDetector",
+    // ^ mine time!!! mwahahahahaha!!!!
+    "APERSMineDispenser_Mag",
+    // ^ This is the launcher that spreads mines EVERYWHERE
+    "HLC_wp_M134Painless"
+    // ^ Whhy is this even a thing????
 ];
