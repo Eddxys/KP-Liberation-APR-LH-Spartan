@@ -178,6 +178,9 @@ KPLIB_arsenalBlacklist = [
     // ^ Titan Launchers, both compact (AT) and Full size (AA), and their mags/ammo
     "H_HelmetO_ViperSP_hex_F",
     "H_HelmetO_ViperSP_ghex_F",
+    "TCGM_F_Viper_GHex",
+    "TCGM_F_Viper_AHex",
+    "TCGM_F_Viper_UHex",
     "U_O_V_Soldier_Viper_F",
     "U_O_V_Soldier_Viper_hex_F",
     "U_I_Protagonist_VR",
