@@ -48,7 +48,7 @@ Vcm_Settings =
 	VCM_CARGOCHNG = false; //If true, Vcom will handle disembarking/re-embarking orders instead of vanilla. This is with the intention to prevent the endless embark/disembark loops AI are given.	
 	VCM_TURRETUNLOAD = false;//If false = Prevents AI vehicle turret positions from leaving a vehicle just beecause it is slightly damaged. Example: leaving a tank when just the tracks are damaged.	
 	VCM_DISEMBARKRANGE = 125; //How far AI will disembark from their enemies. If the vehicle is damaged, they will disembark.
-	VCM_AISNIPERS = false; //Special sniper AI
+	VCM_AISNIPERS = true; //Special sniper AI
 	VCM_AISUPPRESS = false; //AI will attack from further away with primary weapons to suppress enemies
 	Vcm_DrivingActivated = false; //AI will use experimental driving improvements.
 	Vcm_PlayerAISkills = false; //AI in a group, that a players leads, can have their skills changed separately.
@@ -58,7 +58,7 @@ Vcm_Settings =
 	Vcm_SmokeCooldown = 60;		//Cooldown between each smoke grenade throw. This does not impact vanilla throwing.
 	Vcm_DisableAIRadio = false; //Setting this to true will disable AI talking to each other via the radio. This is only a sound effect, and will make the AI execute orders faster if disabled.
 	Vcm_UseStaticWeapons = true; //AI will deploy/garrison static weapons
-	Vcm_AI_EM = false; //Will the AI use enhanced movement to navigate around.
+	Vcm_AI_EM = true; //Will the AI use enhanced movement to navigate around.
 	Vcm_AI_EM_CHN = 10; //Chance a group will attempt to jump over an obstacle  - every 0.5 secs
 	VCM_AI_EM_CLDWN = 10; //Time in seconds before a group will consider jumping over obstacles;	
 	Vcm_IdleAnimationChnc = 2; //Chance an AI will play an idle animation.
