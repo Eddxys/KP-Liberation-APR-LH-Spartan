@@ -52,7 +52,7 @@
             <Original>- KPLib v0.96.8apr LH -</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v0.96.8apr LH</Original>
+            <Original>v0.96.8apr LH-Spartan</Original>
         </Key>
         <Key ID="STR_MISSION_DESCRIPTION">
             <Original>Liberate the region from the enemy oppression! Strategy will be key! Good luck soldiers.</Original>
@@ -73,13 +73,13 @@
             <Original>Lee H presents</Original>
         </Key>
         <Key ID="STR_MISSION_AUTHOR">
-            <Original>[GREUH] Zbug &amp; McKeewa, KP Liberation Team, Apricot_ale, Lee H</Original>
+            <Original>[GREUH] Zbug &amp; McKeewa, KP Liberation Team, Apricot_ale, Lee H, canno</Original>
         </Key>
         <Key ID="STR_MISSION_OVERVIEW">
             <Original></Original>
         </Key>
         <Key ID="STR_MISSION_ONLOAD">
-            <Original>github.com/lhmngwy/KP-Liberation-APR-LH</Original>
+            <Original>https://github.com/Eddxys/KP-Liberation-APR-LH-Spartan</Original>
         </Key>
         <Key ID="STR_HURON01_NAME">
             <Original>Spartan 01</Original>
