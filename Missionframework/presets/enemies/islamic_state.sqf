@@ -116,9 +116,7 @@ KPLIB_o_armyVehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 KPLIB_o_armyVehiclesLight = [
     "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
-    "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
-    "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
-    "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
+    "LOP_ISTS_OPF_Landrover_SPG9",                                        
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
@@ -219,8 +217,7 @@ KPLIB_o_planes = [
     "RHS_Su25SM_vvsc",                                                  // Su-25
     "RHS_Su25SM_KH29_vvsc",                                              // Su-25 (KH29)
     "rhs_mig29s_vvsc",
-    "rhs_mig29sm_vvsc",
-    "rhs_pchela1t_vvsc"
+    "rhs_mig29sm_vvsc"
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
