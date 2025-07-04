@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=53;
+		nextID=55;
 	};
 	class Camera
 	{
-		pos[]={123.45739,151.90182,118.28397};
-		dir[]={-0.70774704,-0.69938046,-0.099933855};
-		up[]={-0.69253999,0.71471918,-0.097789399};
-		aside[]={-0.1398185,8.624047e-07,0.99019593};
+		pos[]={116.77034,151.90182,124.45634};
+		dir[]={-0.4317134,-0.77696377,-0.45823637};
+		up[]={-0.53280109,0.62951046,-0.565539};
+		aside[]={-0.72787476,7.346971e-07,0.68574202};
 	};
 };
 binarizationWanted=0;
@@ -1933,7 +1933,7 @@ class Mission
 						rank="COLONEL";
 						init="removeallWeapons this; removebackpack this; this setVariable ['ace_medical_medicClass', 1]; this setVariable ['ACE_isEngineer', 1];";
 						name="commandant";
-						description="Colonel@Colonel";
+						description="Colonel@Command";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -2067,7 +2067,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="(group this) setGroupIdGlobal[""Alpha""];";
-						description="Alpha-1 Captain@Alpha-1 Captain";
+						description="Alpha-1 Captain@Alpha";
 						isPlayable=1;
 					};
 					id=141;
@@ -2117,7 +2117,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Alpha-1 Medic@Alpha Medic";
+						description="Alpha-1 Medic";
 						isPlayable=1;
 					};
 					id=142;
@@ -2166,7 +2166,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1 Engineer@Alpha Engineer";
+						description="Alpha-1 Engineer";
 						isPlayable=1;
 					};
 					id=143;
@@ -2216,7 +2216,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Alpha-1-1 Team Leader@Alpha-1-1 Team Leader";
+						description="Alpha-1-1 Team Leader";
 						isPlayable=1;
 					};
 					id=144;
@@ -2265,7 +2265,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1-1 Machine Gunner@Alpha-1-1 Machine Gunner";
+						description="Alpha-1-1 Machine Gunner";
 						isPlayable=1;
 					};
 					id=145;
@@ -2314,7 +2314,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1-1 AT /AA Specialist@Alpha-1-1 AT/AA Specialist";
+						description="Alpha-1-1 AT /AA Specialist";
 						isPlayable=1;
 					};
 					id=146;
@@ -2363,7 +2363,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1-1 Sniper@Alpha-1-1 Sniper";
+						description="Alpha-1-1 Sniper";
 						isPlayable=1;
 					};
 					id=147;
@@ -2413,7 +2413,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Alpha-1-2 Team Leader@Alpha-1-2 Team Leader";
+						description="Alpha-1-2 Team Leader";
 						isPlayable=1;
 					};
 					id=148;
@@ -2462,7 +2462,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1-2 Machine Gunner@Alpha-1-2 Machine Gunner";
+						description="Alpha-1-2 Machine Gunner";
 						isPlayable=1;
 					};
 					id=149;
@@ -2511,7 +2511,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Alpha-1-2 AT/AA Specialist@Alpha-1-2 AT/AA Specialist";
+						description="Alpha-1-2 AT/AA Specialist";
 						isPlayable=1;
 					};
 					id=150;
@@ -2560,7 +2560,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="A@lpha-1-2  Sniper@Alpha-1-2  Sniper";
+						description="Alpha-1-2  Sniper";
 						isPlayable=1;
 					};
 					id=151;
@@ -2642,7 +2642,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="(group this) setGroupIdGlobal[""Bravo""];";
-						description="Bravo-1 Captain@Bravo-1 Captain";
+						description="Bravo-1 Captain@Bravo";
 						isPlayable=1;
 					};
 					id=153;
@@ -2692,7 +2692,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Bravo-1 Medic@Bravo-1 Medic";
+						description="Bravo-1 Medic";
 						isPlayable=1;
 					};
 					id=154;
@@ -2741,7 +2741,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1 Engineer@Bravo-1 Engineer";
+						description="Bravo-1 Engineer";
 						isPlayable=1;
 					};
 					id=155;
@@ -2791,7 +2791,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Bravo-1-1 Team Leader@Bravo-1-1 Team Leader";
+						description="Bravo-1-1 Team Leader";
 						isPlayable=1;
 					};
 					id=156;
@@ -2840,7 +2840,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1-1 Machine Gunner@Bravo-1-1 Machine Gunner";
+						description="Bravo-1-1 Machine Gunner";
 						isPlayable=1;
 					};
 					id=157;
@@ -2889,7 +2889,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo 1-1 AT/AA Specialist@Bravo 1-1 AT/AA Specialist";
+						description="Bravo 1-1 AT/AA Specialist";
 						isPlayable=1;
 					};
 					id=158;
@@ -2938,7 +2938,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1-1 Sniper@Bravo-1-1 Sniper";
+						description="Bravo-1-1 Sniper";
 						isPlayable=1;
 					};
 					id=159;
@@ -2988,7 +2988,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Bravo-1-2 Team Leader@Bravo-1-2 Team Leader";
+						description="Bravo-1-2 Team Leader";
 						isPlayable=1;
 					};
 					id=160;
@@ -3037,7 +3037,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1-2 Machine Gunner@Bravo-1-2 Machine Gunner";
+						description="Bravo-1-2 Machine Gunner";
 						isPlayable=1;
 					};
 					id=161;
@@ -3086,7 +3086,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1-2 AT/AA Specialist@Bravo-1-2 AT/AA Specialist";
+						description="Bravo-1-2 AT/AA Specialist";
 						isPlayable=1;
 					};
 					id=162;
@@ -3135,7 +3135,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Bravo-1-2 Sniper@Bravo-1-2 Sniper";
+						description="Bravo-1-2 Sniper";
 						isPlayable=1;
 					};
 					id=163;
@@ -3591,7 +3591,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Logistics Demolition Expert@Pelican";
+						description="Logistics Demolition Expert@Logistics Demolition Expert";
 						isPlayable=1;
 					};
 					id=175;
@@ -3723,7 +3723,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="CAS Pilot@Eagle";
+						description="CAS Pilot";
 						isPlayable=1;
 					};
 					id=178;
