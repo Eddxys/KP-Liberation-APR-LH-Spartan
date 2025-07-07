@@ -122,6 +122,7 @@ KPLIB_b_vehLight = [
 ];
 
 KPLIB_b_vehHeavy = [
+    ["B_LT_01_AA_F",180,50,80],                                         // AWC 302 Nyx (AA)
     ["rhsusf_m113d_usarmy",200,40,100],                                 // M113A3 (M2)
     ["rhsusf_m113d_usarmy_MK19",200,60,100],                            // M113A3 (Mk19)
     ["rhsusf_m113d_usarmy_medical",200,0,100],                          // M113A3 (Medical)
@@ -130,6 +131,12 @@ KPLIB_b_vehHeavy = [
     ["rhsusf_stryker_m1132_m2_np_d",240,190,140],                       // M1132 Stryker (M2)
     ["rhsusf_stryker_m1132_m2_d",270,210,170],                          // M1132 Stryker (SMP/M2)
     ["rhsusf_stryker_m1134_d",310,230,210],                             // M1134 Stryker
+    ["B_APC_Tracked_01_AA_F",330,150,230],                              // Bardelas (AA)
+    ["B_Truck_01_1c_F",370,210,260],                                    // HEMTT Praetorian
+    ["B_APC_Tracked_01_rcws_Centurion_F",450,270,150],                  // IFV-6b Centurion
+    ["B_APC_Tracked_01_rcws_Spartan_F",480,300,200],                    // IFV-6b Spartan
+    ["B_Truck_01_defender_F",800,550,350],                              // HEMTT Defender
+    ["B_MBT_01_AA_F",1250,1100,900],                                    // M5 Anti Air
     ["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
     ["RHS_M2A3_BUSKIII",300,250,175],                                   // M2A3 (Busk III)
     ["RHS_M6",300,250,175],                                             // M6A2
@@ -196,7 +203,10 @@ KPLIB_b_vehStatic = [
     ["RHS_Stinger_AA_pod_D",50,100,0],                                  // Stinger (AA)
     ["RHS_M252_D",180,225,125],                                            // Mk6 Mortar
     ["RHS_M119_D",400,650,500],                                           // M119A2
-    ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
+    ["B_SAM_System_03_F",250,500,0],                                     // MIM-145 Defender
+    ["B_AAA_System_01_sand_F",350,550,0],                                     // Praetorian 1C
+    ["B_SAM_System_02_F",950,850,0],                                     // Mk-29 ESSM
+    ["B_SAM_System_01_sand_F",1500,1250,0]                                     // Mk49 Spartan
 ];
 
 KPLIB_b_objectsDeco = [
@@ -444,5 +454,13 @@ KPLIB_b_vehToUnlock = [
     "RHS_UH60M_MEV_d",                                                  // UH-60M MEV (ESSS) 
     "RHS_C130J",                                                        // C-130J    
     "RHS_C130J_Cargo",                                                  // C-130J (Cargo)
-    "RHS_MELB_AH6M"                                                     // AH-6M Little Bird
+    "RHS_MELB_AH6M",                                                    // AH-6M Little Bird
+    "B_APC_Tracked_01_AA_F",                                            // Bardelas
+    "B_Truck_01_1c_F",                                                  // HEMTT Praetorian
+    "B_Truck_01_defender_F",                                            // HEMTT Defender
+    "B_APC_Tracked_01_rcws_Centurion_F",                                // IFV-6b Centurion
+    "B_APC_Tracked_01_rcws_Spartan_F",                                  // IFV-6b Spartan
+    "B_MBT_01_AA_F",                                                     // M5 Anti Air
+    "B_SAM_System_02_F",                                                 // Mk-29 ESSM
+    "B_SAM_System_01_sand_F"                                                 // Mk49 Spartan
 ];
