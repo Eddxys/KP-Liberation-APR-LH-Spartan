@@ -261,5 +261,5 @@ KPLIB_o_turrets_SAM = [
     ["O_APC_Tracked_02_SAM_F", "O_Truck_03_Radar_F_CSAT"],
     ["O_Truck_03_SAM_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
     ["O_Truck_03_SAM_TOR_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
-    ["O_Truck_02_AA_F"],
+    ["O_Truck_02_AA_F"]
 ];
