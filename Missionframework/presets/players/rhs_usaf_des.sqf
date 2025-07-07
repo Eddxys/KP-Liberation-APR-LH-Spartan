@@ -91,6 +91,7 @@ KPLIB_b_vehLight = [
     ["rhsusf_m1025_d_Mk19",100,60,50],                                  // M1025A2 (Mk19)
     ["rhsusf_m998_d_2dr_fulltop",100,0,50],                             // M1097A2 (2D)
     ["rhsusf_m998_d_2dr_halftop",100,0,50],                             // M1097A2 (2D / open back)
+    ["rhsusf_m966_d",110,0,60],                                         // M966A1 (M220A2)
     ["rhsusf_M1220_usarmy_d",120,0,60],                                 // M1220
     ["rhsusf_M1220_M2_usarmy_d",120,40,60],                             // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_d",120,60,60],                           // M1220 (Mk19)
@@ -125,12 +126,17 @@ KPLIB_b_vehHeavy = [
     ["rhsusf_m113d_usarmy_MK19",200,60,100],                            // M113A3 (Mk19)
     ["rhsusf_m113d_usarmy_medical",200,0,100],                          // M113A3 (Medical)
     ["rhsusf_stryker_m1126_m2_d",200,150,100],                          // M1126 Stryker (M2)
+    ["rhsusf_stryker_m1127_m2_d",220,170,120],                          // M1127 Stryker (M2/lRAS3)
+    ["rhsusf_stryker_m1132_m2_np_d",240,190,140],                       // M1132 Stryker (M2)
+    ["rhsusf_stryker_m1132_m2_d",270,210,170],                          // M1132 Stryker (SMP/M2)
+    ["rhsusf_stryker_m1134_d",310,230,210],                             // M1134 Stryker
     ["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
     ["RHS_M2A3_BUSKIII",300,250,175],                                   // M2A3 (Busk III)
     ["RHS_M6",300,250,175],                                             // M6A2
     ["rhsusf_m1a1aim_tuski_d",400,350,225],                             // M1A1SA (Tusk I)
     ["rhsusf_m1a2sep1tuskiid_usarmy",500,400,250],                      // M1A2SEPv1 (Tusk II)
-    ["rhsusf_m109d_usarmy",600,1250,300]                                // M109A6
+    ["rhsusf_m109d_usarmy",750,1250,500],                               // M109A6
+    ["rhsusf_M142_usarmy_D",1500,1800,1300]                             // M142 HIMARS
 ];
 
 KPLIB_b_vehAir = [
@@ -145,11 +151,16 @@ KPLIB_b_vehAir = [
     ["RHS_UH60M2_d",250,0,150],                                         // UH-60M (Unarmed)
     ["RHS_UH60M_d",250,80,150],                                         // UH-60M
     ["RHS_UH60M_MEV2_d",300,0,150],                                     // UH-60M MEV2
+    ["RHS_UH60M_ESSS2_d",500,400,300],                                   // UH-60M (EWS)
+    ["RHS_UH60M_ESSS_d",550,600,200],                                   // UH-60M (ESSS)
+    ["RHS_UH60M_MEV_d",550,600,200],                                   // UH-60M MEV (ESSS)
     ["RHS_CH_47F_10",275,80,175],                                       // CH-47 Chinook (Armed)
     ["rhsusf_CH53E_USMC_D",300,0,175],                                  // CH-53E Super Stallion
     ["rhsusf_CH53E_USMC_GAU21_D",300,100,175],                          // CH-53E Super Stallion (GAU-21)
     ["USAF_C130J",200,0,250],                                           // C-130J Super Hercules
     ["USAF_C130J_Cargo",200,0,250],                                     // C-130J Super Hercules (Cargo)
+    ["RHS_C130J",200,100,250],                                          // C-130J
+    ["RHS_C130J_Cargo",200,50,230],                                     // C-130J (Cargo)
     ["USAF_C17",500,0,400],                                             // C-17 Globemaster III
     ["usaf_kc135",600,0,2500],                                          // KC-135 Stratotanker
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
@@ -183,8 +194,8 @@ KPLIB_b_vehStatic = [
     ["RHS_MK19_TriPod_D",25,60,0],                                      // Mk19 GMG 20mm
     ["RHS_TOW_TriPod_D",50,100,0],                                      // TOW (AT)
     ["RHS_Stinger_AA_pod_D",50,100,0],                                  // Stinger (AA)
-    ["RHS_M252_D",80,150,0],                                            // Mk6 Mortar
-    ["RHS_M119_D",100,200,0],                                           // M119A2
+    ["RHS_M252_D",180,225,125],                                            // Mk6 Mortar
+    ["RHS_M119_D",400,650,500],                                           // M119A2
     ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
 ];
 
@@ -425,5 +436,13 @@ KPLIB_b_vehToUnlock = [
     "JS_JC_FA18F",                                                      // F/A-18 F Super Hornet
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
     "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
-    "B_T_VTOL_01_armed_F"                                               // V-44 X Blackfish (Armed)
+    "B_T_VTOL_01_armed_F",                                              // V-44 X Blackfish (Armed)
+    "rhsusf_M142_usarmy_D",                                             // M142 HIMARS
+    "RHS_M119_D",                                                       // M119A2
+    "RHS_UH60M_ESSS_d",                                                 // UH-60M(ESSS)
+    "RHS_UH60M_ESSS2_d",                                                // UH-60M(EWS)
+    "RHS_UH60M_MEV_d",                                                  // UH-60M MEV (ESSS) 
+    "RHS_C130J",                                                        // C-130J    
+    "RHS_C130J_Cargo",                                                  // C-130J (Cargo)
+    "RHS_MELB_AH6M"                                                     // AH-6M Little Bird
 ];
