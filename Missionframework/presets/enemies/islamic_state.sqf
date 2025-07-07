@@ -257,5 +257,9 @@ KPLIB_o_turrets_MORTAR = [
 
 // Enemy SAM turrets that will be spawned in the back country
 KPLIB_o_turrets_SAM = [
-    ["O_SAM_System_04_F", "O_Radar_System_02_F"]
+    ["O_SAM_System_04_F", "O_Radar_System_02_F"],
+    ["O_APC_Tracked_02_SAM_F", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_03_SAM_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_03_SAM_TOR_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_02_AA_F"]
 ];
