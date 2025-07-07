@@ -255,5 +255,6 @@ KPLIB_arsenalBlacklist = [
     "Eyegore_Facewear",
     "Eyegore_Facewear2",
     "Eyegore_Facewear3",
+    "charred_legRhandL_Camo"
     // ^ Dismemberment Mod Blacklist
 ];

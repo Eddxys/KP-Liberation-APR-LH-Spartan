@@ -60,10 +60,10 @@ if ([
     };
 };
 
-player setUnitTrait ["engineer", true];
-player setUnitTrait ["explosiveSpecialist", true];
-player setUnitTrait ["medic", true];
-player setUnitTrait ["UAVHacker", true];
+// player setUnitTrait ["engineer", true];
+// player setUnitTrait ["explosiveSpecialist", true];
+// player setUnitTrait ["medic", true];
+// player setUnitTrait ["UAVHacker", true];
 
 private _aiSquad = (units group player) select {alive _x && !isPlayer _x};
 player setVariable ["KPLIB_unitsBought", count _aiSquad, true];
