@@ -82,7 +82,8 @@ KPLIB_o_militiaInfantry = [
 	"LOP_ISTS_OPF_Infantry_SL",
     "LOP_TKA_Infantry_AA",
     "LOP_TKA_Infantry_AA",
-    "O_soldier_UAV_F"
+    "O_soldier_UAV_F",
+    "LOP_ISTS_OPF_Infantry_Corpsman"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
