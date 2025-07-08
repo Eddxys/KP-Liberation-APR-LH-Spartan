@@ -232,6 +232,7 @@ KPLIB_objectInits = [
         }
     ],
 
+    // Add flashlights to militia
     [
         ["CAManBase"],
         {
@@ -242,7 +243,8 @@ KPLIB_objectInits = [
 
             // Militia uses torches at night
             if ((typeOf _this) in KPLIB_o_militiaInfantry) then {
-                _this addPrimaryWeaponItem "acc_flashlight";
+                // RHS Flashlights (works only if you have RHS units that support this)
+                _this addPrimaryWeaponItem "rhs_acc_2dpZenit";
                 {
                     if (_x in assigneditems _this) exitWith {_this unlinkItem _x};
                 } forEach ["NVGoggles_OPFOR","NVGoggles_INDEP","NVGoggles"];
