@@ -301,7 +301,7 @@ KPLIB_civinfo_duration = 1800;
 KPLIB_civinfo_task_chance = 35;
 
 // Time until the task will despawn if no player is near. (seconds, default 30 min)
-KPLIB_civinfo_task_duration = 1800;
+KPLIB_civinfo_task_duration = 2700;
 
 
 /*

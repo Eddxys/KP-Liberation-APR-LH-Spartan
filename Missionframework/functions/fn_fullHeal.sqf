@@ -60,9 +60,15 @@ if (isClass (configfile >> "CfgPatches" >> "ace_field_rations")) then {_acefr = 
     };
 } forEach _targetunits;
 
-if (!(_caller in _cooldownunits)) then {[localize "STR_FULLHEAL_DONE"] remoteExecCall ["hint", _caller];};
-[format [localize "STR_FULLHEAL_APPLY", name _caller]] remoteExecCall ["hint", _healedunits];
+if (!(_caller in _cooldownunits)) then {
+    [localize "STR_FULLHEAL_DONE"] remoteExecCall ["hint", _caller];
+};
+if (count _healedunits > 0) then {
+    [format [localize "STR_FULLHEAL_APPLY", name _caller]] remoteExecCall ["hint", _healedunits];
+};
 sleep 5;
-[""] remoteExecCall ["hintSilent", _targetunits];
+if (count _targetunits > 0) then {
+    [""] remoteExecCall ["hintSilent", _targetunits];
+};
 
 true
