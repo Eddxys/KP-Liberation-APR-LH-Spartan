@@ -248,7 +248,7 @@ KPLIB_objectInits = [
                 {
                     if (_x in assigneditems _this) exitWith {_this unlinkItem _x};
                 } forEach ["NVGoggles_OPFOR","NVGoggles_INDEP","NVGoggles"];
-                _this enablegunlights "forceOn";
+                _this enablegunlights "Auto";
             }
         },
         true
