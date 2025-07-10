@@ -27,7 +27,7 @@ KPLIB_o_machinegunner = "rhs_msv_emr_arifleman";                        // Autor
 KPLIB_o_heavyGunner = "rhs_msv_emr_machinegunner";                      // Heavy Gunner
 KPLIB_o_marksman = "rhs_msv_emr_marksman";                              // Marksman
 KPLIB_o_sharpshooter = "rhs_msv_emr_marksman";                          // Sharpshooter
-KPLIB_o_sniper = "rhs_msv_emr_marksman";                                // Sniper
+KPLIB_o_sniper = "O_ghillie_lsh_F";                                // Sniper
 KPLIB_o_atSpecialist = "rhs_msv_emr_at";                                // AT Specialist
 KPLIB_o_aaSpecialist = "rhs_msv_emr_aa";                                // AA Specialist
 KPLIB_o_medic = "rhs_msv_emr_medic";                                    // Combat Life Saver
@@ -59,12 +59,15 @@ KPLIB_o_militiaInfantry = [
     "rhs_msv_emr_arifleman",                                            // Autorifleman
     "rhs_msv_emr_marksman",                                             // Marksman
     "rhs_msv_emr_medic",                                                // Medic
-    "rhs_msv_emr_engineer"                                              // Engineer
+    "rhs_msv_emr_engineer",                                              // Engineer
+    "rhs_msv_emr_aa"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 KPLIB_o_militiaVehicles = [
-    "rhs_tigr_sts_msv"                                                  // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                  // GAZ-233014 (Armed)
+    "rhs_tigr_m_msv",
+    "rhs_uaz_open_MSV_01"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
@@ -136,7 +139,8 @@ KPLIB_o_troopTransports = [
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
-    "RHS_Mi24V_AT_vvsc"                                                 // Mi-24V (AT)
+    "RHS_Mi24V_AT_vvsc",                                                 // Mi-24V (AT)
+    "rhs_ka60_c"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
@@ -150,5 +154,52 @@ KPLIB_o_helicopters = [
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
     "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "RHS_Su25SM_KH29_vvsc",                                              // Su-25 (KH29)
+    "rhs_mig29s_vvsc",
+    "rhs_mig29sm_vvsc",
+    "RHS_T50_vvs_051",
+    "RHS_T50_vvs_blueonblue",
+    "RHS_T50_vvs_generic_ext",
+    "rhs_pchela1t_vvsc"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_HMG = [
+    "rhs_KORD_high_MSV",
+    "rhs_KORD_MSV",
+    "rhs_NSV_TriPod_MSV"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_GMG = [
+    "RHS_AGS30_TriPod_MSV",
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AT = [
+    "rhs_SPG9M_MSV",
+    "rhs_Kornet_9M133_2_msv",
+    "rhs_Metis_9k115_2_msv"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AA = [
+    "RHS_ZU23_MSV",
+    "rhs_Igla_AA_pod_msv"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_MORTAR = [
+    "rhs_2b14_82mm_msv",
+    "rhs_D30_at_msv",
+    "rhs_D30_msv"
+];
+
+// Enemy SAM turrets that will be spawned in the back country
+KPLIB_o_turrets_SAM = [
+    ["O_SAM_System_04_F", "O_Radar_System_02_F"],
+    ["O_APC_Tracked_02_SAM_F", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_03_SAM_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_03_SAM_TOR_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
+    ["O_Truck_02_AA_F"]
 ];
