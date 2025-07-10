@@ -172,7 +172,7 @@ KPLIB_o_turrets_HMG = [
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_GMG = [
-    "RHS_AGS30_TriPod_MSV",
+    "RHS_AGS30_TriPod_MSV"
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
