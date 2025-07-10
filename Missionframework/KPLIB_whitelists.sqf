@@ -21,18 +21,18 @@
 
 // Access to the commander slot.
 KPLIB_whitelist_cmdrSlot = [
-    "76561197968753886",
+    "76561198100875033",
     "76561197975206233"
 ];
 
 // Access the commander actions (rights, production, etc.), even if the corresponding player is not in the commander slot.
 KPLIB_whitelist_cmdrActions = [
-    "76561197968753886",
-    "76561197975206233"
+    "76561198100875033",
+    "76561198137339095"
 ];
 
 // Whitelist for BI support framework access.
 KPLIB_whitelist_supportModule = [
-    "76561197968753886",
-    "76561197975206233"
+    "76561198100875033",
+    "76561198137339095"
 ];
