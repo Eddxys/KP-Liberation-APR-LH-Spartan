@@ -148,7 +148,8 @@ KPLIB_o_helicopters = [
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
-    "RHS_Ka52_vvsc"                                                     // Ka-52
+    "RHS_Ka52_vvsc",                                                     // Ka-52
+    "rhs_mi28n_vvsc"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
@@ -197,9 +198,9 @@ KPLIB_o_turrets_MORTAR = [
 
 // Enemy SAM turrets that will be spawned in the back country
 KPLIB_o_turrets_SAM = [
-    ["O_SAM_System_04_F", "O_Radar_System_02_F"],
-    ["O_APC_Tracked_02_SAM_F", "O_Truck_03_Radar_F_CSAT"],
-    ["O_Truck_03_SAM_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
-    ["O_Truck_03_SAM_TOR_F_CSAT", "O_Truck_03_Radar_F_CSAT"],
-    ["O_Truck_02_AA_F"]
+    ["O_T_SAM_System_04_F_CSAT", "O_T_Radar_System_02_F_CSAT"],
+    ["O_T_APC_Tracked_02_SAM_F", "O_T_Radar_System_02_F_CSAT"],
+    ["O_T_Truck_03_SAM_F_CSAT", "O_T_Radar_System_02_F_CSAT"],
+    ["O_T_Truck_03_SAM_TOR_F_CSAT", "O_T_Radar_System_02_F_CSAT"],
+    ["O_T_Truck_02_AA_F"]
 ];

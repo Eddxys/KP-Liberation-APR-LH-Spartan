@@ -29,6 +29,16 @@ if (!KPPLM_CBA) then {
     false;
 };
 
+// Role restrictions (thanks ColinM and Apocalypsis)
+private _roleFile = format ["presets\arsenal\roles\%1.sqf", _playerRole];
+
+if (_playerRole != "" && fileExists _roleFile) then {
+    [] call compileScript [_roleFile];
+} else {
+    diag_log format ["[KPLIB] No loadout script found for role: %1", _playerRole];
+};
+
+
 // Activate selected player menu. If CBA isn't loaded -> fallback to GREUH
 if (KPPLM_CBA && KPLIB_param_playerMenu == 1) then {
     [] call KPPLM_fnc_postInit;
