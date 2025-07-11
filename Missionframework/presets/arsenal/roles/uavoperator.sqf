@@ -1,27 +1,15 @@
-GRLIB_arsenal_weapons append [
+KPLIB_arsenalWeapons append [
     // Weapons
 ];
 
-GRLIB_arsenal_magazines append [
+KPLIB_arsenalMagazines append [
     // Magazines
 ];
 
-GRLIB_arsenal_items append [
+KPLIB_arsenalItems append [
     // Items
 ];
 
-GRLIB_arsenal_backpacks append [
+KPLIB_arsenalBackpacks append [
     // Backpacks
-    "B_UAFPV_IED_AP_Bag",
-    "I_UAFPV_IED_AP_Bag",
-    "O_UAFPV_IED_AP_Bag",
-    "B_UAFPV_OG7V_AP_Bag",
-    "I_UAFPV_OG7V_AP_Bag",
-    "O_UAFPV_OG7V_AP_Bag",
-    "B_UAFPV_PG7VL_AT_Bag",
-    "I_UAFPV_PG7VL_AT_Bag",
-    "O_UAFPV_PG7VL_AT_Bag",
-    "B_UAFPV_RKG_AP_Bag",
-    "I_UAFPV_RKG_AP_Bag",
-    "O_UAFPV_RKG_AP_Bag"
 ];

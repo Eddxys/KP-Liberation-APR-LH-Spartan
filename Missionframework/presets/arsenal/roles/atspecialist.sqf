@@ -1,17 +1,15 @@
-GRLIB_arsenal_weapons append [
+KPLIB_arsenalWeapons append [
     // Weapons
-    "CUP_launch_Javelin"
 ];
 
-GRLIB_arsenal_magazines append [
+KPLIB_arsenalMagazines append [
     // Magazines
-    "CUP_Javelin_M"
 ];
 
-GRLIB_arsenal_items append [
+KPLIB_arsenalItems append [
     // Items
 ];
 
-GRLIB_arsenal_backpacks append [
+KPLIB_arsenalBackpacks append [
     // Backpacks
 ];

@@ -1,15 +1,15 @@
-GRLIB_arsenal_weapons append [
+KPLIB_arsenalWeapons append [
     // Weapons
 ];
 
-GRLIB_arsenal_magazines append [
+KPLIB_arsenalMagazines append [
     // Magazines
 ];
 
-GRLIB_arsenal_items append [
+KPLIB_arsenalItems append [
     // Items
 ];
 
-GRLIB_arsenal_backpacks append [
+KPLIB_arsenalBackpacks append [
     // Backpacks
 ];

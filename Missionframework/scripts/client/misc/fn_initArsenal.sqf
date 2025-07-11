@@ -41,7 +41,7 @@ if (KPLIB_param_useArsenalPreset) then {
         case  14: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_csat_ghex.sqf";};
         case  15: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_aaf.sqf";};
         case  16: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_ldf.sqf";};
-        default  {[] call compile preprocessFileLineNumbers "presets\arsenal\blacklist.sqf";};
+        default  {KPLIB_arsenalWeapons = [];KPLIB_arsenalMagazines = [];KPLIB_arsenalItems = [];KPLIB_arsenalBackpacks = [];};
     };
     [] call compile preprocessFileLineNumbers "presets\arsenal\allowedExtension.sqf";
 
