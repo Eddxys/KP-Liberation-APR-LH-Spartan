@@ -41,9 +41,20 @@ if (KPLIB_param_useArsenalPreset) then {
         case  14: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_csat_ghex.sqf";};
         case  15: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_aaf.sqf";};
         case  16: {[] call compile preprocessFileLineNumbers "presets\arsenal\vanilla_ldf.sqf";};
-        default  {KPLIB_arsenalWeapons = [];KPLIB_arsenalMagazines = [];KPLIB_arsenalItems = [];KPLIB_arsenalBackpacks = [];};
+        default  {
+            KPLIB_arsenalWeapons = [];
+            KPLIB_arsenalMagazines = [];
+            KPLIB_arsenalItems = [];
+            KPLIB_arsenalBackpacks = [];
+            };
     };
     [] call compile preprocessFileLineNumbers "presets\arsenal\allowedExtension.sqf";
+
+    private _playerRole = player getVariable ["KPLIB_role", ""];
+
+    if (_playerRole isNotEqualTo "") then {
+        [] call compileScript[format["presets\arsenal\roles\%1.sqf", _playerRole]];
+    };
 
     private _crawled = [] call KPLIB_fnc_crawlAllItems;
 
