@@ -10,7 +10,13 @@ KPLIB_arsenalWeapons append [
     "rhs_weap_m249_pip_S_para",                                     // M249 PIP (Short/Para)
     "rhs_weap_m249_pip_S",                                          // M249 PIP (Short/Savit)
     "rhs_weap_m249_pip",                                            // M249 PIP
-    "rhs_weap_m249"                                                // M249
+    "rhs_weap_m249",                                               // M249
+
+    //Handguns
+    "CUP_hgun_FlareGun",
+    "CUP_hgun_M9",
+    "CUP_hgun_M9A1",
+    "CUP_hgun_M9_snds"
 ];
 
 KPLIB_arsenalMagazines append [
@@ -55,7 +61,11 @@ KPLIB_arsenalMagazines append [
     "rhsusf_50Rnd_762x51_m62_tracer",                               // 50rnd M240 Softpack M62 (Tracer)
     "rhsusf_50Rnd_762x51_m80a1epr",                                 // 50rnd M240 Softpack M80A1 EPR
     "rhsusf_50Rnd_762x51_m82_blank",                                // 50rnd M240 Belt M82 (Blank)
-    "rhsusf_50Rnd_762x51"                                          // 50rnd M240 Softpack M80
+    "rhsusf_50Rnd_762x51",                                          // 50rnd M240 Softpack M80
+    
+    //Sidearm Magazine
+    "CUP_FlareWhite_265_M",
+    "CUP_15Rnd_9x19_M9"
 ];
 
 KPLIB_arsenalItems append [

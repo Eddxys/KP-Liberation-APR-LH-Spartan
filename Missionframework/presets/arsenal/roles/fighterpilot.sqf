@@ -26,7 +26,14 @@ KPLIB_arsenalWeapons append [
     "rhs_weap_savz61",
     "CUP_smg_saiga9",
     "CUP_smg_UZI",
-    "CUP_hgun_Colt1911"
+    "CUP_hgun_Colt1911",
+
+    //Handguns
+    "CUP_hgun_FlareGun",
+    "CUP_hgun_M9",
+    "CUP_hgun_M9A1",
+    "CUP_hgun_M9_snds",
+
 ];
 
 KPLIB_arsenalMagazines append [
@@ -44,6 +51,10 @@ KPLIB_arsenalMagazines append [
     "rhs_mag_9x19mm_7n21_20",
     "CUP_32Rnd_9x19_UZI_M",
     "CUP_7Rnd_45ACP_1911",
+
+    //Sidearm Magazine
+    "CUP_FlareWhite_265_M",
+    "CUP_15Rnd_9x19_M9",
 
     // Vanilla Standard Grenades & Explosives
     "B_IR_Grenade",                                                 // IR Grenade [NATO]
