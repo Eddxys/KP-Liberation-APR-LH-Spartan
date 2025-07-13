@@ -296,7 +296,9 @@ KPLIB_b_vehSupport = [
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
+    ["B_Slingload_01_Ammo_F",75,200,0],                                  // Huron Ammo
+    [(KPLIB_b_mobileRespawn select 3),200,0,100],                       // LCVP Mk5
+    ["rksla3_lcvpmk5_viv_generic_grey",200,0,100]                       // LCVP Mk5 ViV
 ];
 
 /*
