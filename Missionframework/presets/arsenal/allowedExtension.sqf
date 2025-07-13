@@ -69,6 +69,20 @@ KPLIB_arsenalAllowedExtension = [
     "ACE_WaterBottle",
     "ACE_SpareBarrel",
 
+    // ACE Funny Bandaids
+    "Dragon_HelloKitty_BasicBandage",
+    "Dragon_Courage_BasicBandage",
+    "Dragon_Dora_BasicBandage",
+    "Dragon_Spongebob_BasicBandage",
+    "Dragon_MLP_BasicBandage",
+    "Dragon_Bluey_BasicBandage",
+    "Dragon_Backyardigans_BasicBandage",
+    "Dragon_Roseart_BasicBandage",
+    "Dragon_Transformers_BasicBandage",
+    "Dragon_Wonderpets_BasicBandage",
+    "Dragon_Spiderman_BasicBandage",
+    "Dragon_Superman_BasicBandage",
+
     // ACE Spraypaint
     "ACE_SpraypaintBlack",
     "ACE_SpraypaintBlue",
