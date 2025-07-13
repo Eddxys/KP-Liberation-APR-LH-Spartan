@@ -5,7 +5,10 @@
     private _role = typeOf player;
 
     // Whitelists
-    private _whitelistCommander = ["76561198100875033", "76561198137339095"];
+    private _whitelistCommander = [
+        "76561198100875033", 
+        "76561198137339095"
+    ];
     private _whitelistSL = ["76561198100875033", "76561198137339095"];
     private _whitelistPilot = ["76561198100875033", "76561198137339095"];
     private _whitelistFighterPilot = ["76561198100875033", "76561198137339095"];
