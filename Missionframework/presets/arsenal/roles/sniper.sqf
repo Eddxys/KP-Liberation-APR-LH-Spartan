@@ -12,7 +12,16 @@ KPLIB_arsenalWeapons append [
     "rhs_weap_XM2010_d",                                            // M2010 ESR (Desert)
     "rhs_weap_XM2010_sa",                                           // M2010 ESR (Semi-arid)
     "rhs_weap_XM2010_wd",                                           // M2010 ESR (Camo)
-    "rhs_weap_XM2010"                                              // M2010 ESR
+    "rhs_weap_XM2010",                                              // M2010 ESR
+    "srifle_DMR_02_F",
+    "srifle_DMR_02_camo_F",
+    "srifle_DMR_02_sniper_F",
+    "CUP_srifle_SVD",
+    "CUP_srifle_SVD_des",
+    "CUP_srifle_SVD_des_top_rail",
+    "CUP_srifle_SVD_top_rail",
+    "CUP_srifle_SVD_wdl",
+    "CUP_srifle_SVD_wdl_top_rail"
 ];
 
 KPLIB_arsenalMagazines append [
@@ -27,7 +36,22 @@ KPLIB_arsenalMagazines append [
     "rhsusf_5Rnd_762x51_m62_Mag",                                   // 5Rnd M62 (Tracer)
     "rhsusf_5Rnd_762x51_m993_Mag",                                  // 5Rnd M993 AP
     "rhsusf_5Rnd_300winmag_xm2010",                                 // 5Rnd .300WM Mk248 MOD 1
-    "CUP_5Rnd_762x67_G22"
+    "CUP_5Rnd_762x67_G22",
+    "10Rnd_127x54_Mag",
+    "10Rnd_93x64_DMR_05_Mag",
+    "5Rnd_127x108_APDS_Mag",
+    "5Rnd_127x108_Mag",
+    "CUP_5Rnd_127X99_as50_M",
+    "rhsusf_20Rnd_762x51_m118_special_Mag",
+    "rhsusf_20Rnd_762x51_m62_Mag",
+    "rhsusf_20Rnd_762x51_m80_Mag",
+    "rhsusf_20Rnd_762x51_m993_Mag",
+    "7Rnd_408_Mag",
+    "ACE_7Rnd_408_305gr_Mag",
+    "CUP_5Rnd_762x67_M2010_M",
+    "CUP_5Rnd_TE1_Red_Tracer_762x67_M2010_M",
+    "10Rnd_338_Mag",
+    "CUP_10Rnd_762x54_SVD_M"
 ];
 
 KPLIB_arsenalItems append [
@@ -42,7 +66,7 @@ KPLIB_arsenalItems append [
     "ACE_DAGR",                                                     // DAGR
     "ACE_ATragMX",                                                  // ATragMX
 
-        // Items
+    // Items
     "rhsusf_acc_LEUPOLDMK4_2_d",                                    // Mk. 4 M5 (Desert)
     "rhsusf_acc_LEUPOLDMK4_2_mrds",                                 // Mk. 4 M5 (MRDS)
     "rhsusf_acc_LEUPOLDMK4_2",                                      // Mk. 4 ER/T 6.5-20x M5
@@ -76,7 +100,74 @@ KPLIB_arsenalItems append [
     "rhsusf_bino_lrf_Vector21",                                     // Vecrot 21-B
     "rhsusf_bino_m24_ARD",                                          // M24 Binoculars (ARD)
     "rhsusf_bino_m24",                                              // M24 Binoculars
-    "rhsusf_Rhino"                                                 // Rhino mount
+    "rhsusf_Rhino",                                                 // Rhino mount
+
+    // CUP Sights
+    "CUP_optic_LeupoldMk4_10x40_LRT_Desert",
+    "CUP_optic_LeupoldMk4_10x40_LRT_Woodland",
+    "CUP_optic_LeupoldMk4",
+    "CUP_optic_LeupoldMk4_MRT_tan",
+    "CUP_optic_LeupoldM3LR",
+    "CUP_optic_LeupoldMk4_20x40_LRT",
+    "CUP_optic_LeupoldMk4_25x50_LRT",
+    "CUP_optic_LeupoldMk4_25x50_LRT_DESERT",
+    "CUP_optic_LeupoldMk4_20x40_LRT_SNOW",
+    "CUP_optic_LeupoldMk4_20x40_LRT_WOODLAND",
+    "CUP_optic_Leupold_VX3",
+    "Tier1_LeupoldM3A_ADM_Black",
+    "Tier1_LeupoldM3A_ADM_Desert",
+    "Tier1_LeupoldM3A_ADM_Tan",
+    "Tier1_LeupoldM3A_ADM_T2_Black",
+    "Tier1_LeupoldM3A_ADM_T2_Desert",
+    "Tier1_LeupoldM3A_ADM_T2_Tan",
+    "Tier1_LeupoldM3A_Geissele_Black",
+    "Tier1_LeupoldM3A_Geissele_Desert",
+    "Tier1_LeupoldM3A_Geissele_Tan",
+    "Tier1_LeupoldM3A_Geissele_Docter_Black",
+    "Tier1_LeupoldM3A_Geissele_Docter_Desert",
+    "Tier1_LeupoldM3A_Geissele_Docter_Tan",
+
+    // Noreen Bad News ULR 
+    "ACE_muzzle_mzls_338",
+    "muzzle_snds_338_black",
+    "muzzle_snds_338_green",
+    "muzzle_snds_338_sand",
+    "CUP_bipod_VLTOR_Modpod",
+    "CUP_bipod_VLTOR_Modpod_od",
+    "CUP_bipod_VLTOR_Modpod_black",
+    "Tier1_Harris_Bipod_Tan",
+    "Tier1_Harris_Bipod_Black",
+    "rhsusf_acc_harris_bipod",
+    "rhs_acc_harris_swivel",
+    "CUP_bipod_Harris_1A2_L",
+    "CUP_bipod_Harris_1A2_L_BLK",
+    "bipod_02_F_arid",
+    "bipod_03_F_blk",
+    "bipod_02_F_blk",
+    "bipod_01_F_blk",
+    "bipod_02_F_hex",
+    "bipod_02_F_khk",
+    "bipod_02_F_lush",
+    "bipod_02_F_mtp",
+    "bipod_02_F_oli",
+    "bipod_02_F_snd",
+    "bipod_02_F_tan",
+    "bipod_02_F_mtp",
+
+    // Rangefinders
+    "Laserdesignator_02_ghex_F",
+    "Laserdesignator_02",
+    "Laserdesignator_01_khk_F",
+    "Laserdesignator_03",
+    "Laserdesignator",
+    "rhsusf_bino_lerca_1200_black",
+    "rhsusf_bino_lerca_1200_tan",
+    "CUP_LRTV",
+    "rhsusf_bino_leopold_mk4",
+    "Rangefinder",
+
+    // TFAR Items
+    "TFAR_anprc152"
 ];
 
 KPLIB_arsenalBackpacks append [

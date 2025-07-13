@@ -1,3 +1,91 @@
+[] spawn {
+    waitUntil { !isNull player && player == player };
+
+    private _uid = getPlayerUID player;
+    private _role = typeOf player;
+
+    // Whitelists
+    private _whitelistCommander = ["76561198100875033", "76561198137339095"];
+    private _whitelistSL = ["76561198100875033", "76561198137339095"];
+    private _whitelistPilot = ["76561198100875033", "76561198137339095"];
+    private _whitelistFighterPilot = ["76561198100875033", "76561198137339095"];
+    private _whitelistUAVOperator = ["76561198100875033", "76561198137339095"];
+    private _whitelistSniper = ["76561198100875033", "76561198137339095"];
+    private _whitelistTankCrew = ["76561198100875033", "76561198137339095"];
+
+    private _isUnauthorized = false;
+    private _reason = "";
+
+    switch (_role) do {
+        case "B_Soldier_SL_F": {
+            if !(_uid in _whitelistSL) then {
+                _isUnauthorized = true;
+                _reason = "Squad Leader is whitelisted.";
+            };
+        };
+        case "B_Helipilot_F": {
+            if !(_uid in _whitelistPilot) then {
+                _isUnauthorized = true;
+                _reason = "Pilot is whitelisted.";
+            };
+        };
+        case "B_Fighter_Pilot_F": {
+            if !(_uid in _whitelistFighterPilot) then {
+                _isUnauthorized = true;
+                _reason = "Fighter Pilot is whitelisted.";
+            };
+        };
+        case "B_soldier_UAV_F": {
+            if !(_uid in _whitelistUAVOperator) then {
+                _isUnauthorized = true;
+                _reason = "UAV Operator is whitelisted.";
+            };
+        };
+        case "B_crew_F": {
+            if !(_uid in _whitelistTankCrew) then {
+                _isUnauthorized = true;
+                _reason = "Tank Crew is whitelisted.";
+            };
+        };
+        case "B_officer_F": {
+            if !(_uid in _whitelistCommander) then {
+                _isUnauthorized = true;
+                _reason = "Commander is whitelisted.";
+            };
+        };
+        case "B_sniper_F": {
+            if !(_uid in _whitelistSniper) then {
+                _isUnauthorized = true;
+                _reason = "Sniper Leader is whitelisted.";
+            };
+        };
+    };
+
+    if (_isUnauthorized) then {
+        sleep 3;
+
+        player setPosASL [0, 0, 0];   
+
+        ["This is a whitelisted slot. Please rejoin and choose a different slot.",
+         [_reason, "You are not whitelisted for this role.", "Please rejoin in an allowed slot."]
+        ] spawn BIS_fnc_guiMessage;
+
+        sleep 5;
+        failMission "LOSER"; 
+    };
+};
+
+// Init the lockGroups.sqf script
+[] spawn {
+    waitUntil { !isNull player };
+    [] execVM "scripts\client\ui\lockGroups.sqf";
+};
+
+player addEventHandler ["Respawn", {
+    [] execVM "scripts\client\ui\lockGroups.sqf";
+}];
+
+
 [] call compile preprocessFileLineNumbers "scripts\client\misc\init_markers.sqf";
 [] call KPLIB_fnc_initArsenal;
 
