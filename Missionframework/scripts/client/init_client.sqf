@@ -6,15 +6,35 @@
 
     // Whitelists
     private _whitelistCommander = [
-        "76561198100875033", 
-        "76561198137339095"
+        "76561198100875033", // Pardonee
+        "76561198137339095" // denbodHD
     ];
-    private _whitelistSL = ["76561198100875033", "76561198137339095"];
-    private _whitelistPilot = ["76561198100875033", "76561198137339095"];
-    private _whitelistFighterPilot = ["76561198100875033", "76561198137339095"];
-    private _whitelistUAVOperator = ["76561198100875033", "76561198137339095"];
-    private _whitelistSniper = ["76561198100875033", "76561198137339095"];
-    private _whitelistTankCrew = ["76561198100875033", "76561198137339095"];
+    private _whitelistSL = [
+        "76561198100875033", // Pardonee
+        "76561198137339095", // denbodHD
+        "76561198355387339" // Metal
+    ];
+    private _whitelistPilot = [
+        "76561198100875033", // Pardonee
+        "76561198137339095" // denbodHD
+    ];
+    private _whitelistFighterPilot = [
+        "76561198100875033", // Pardonee
+        "76561198137339095" // denbodHD
+    ];
+    private _whitelistUAVOperator = [
+        "76561198100875033", // Pardonee
+        "76561198137339095", // denbodHD
+        "76561198392002904" // Karl
+    ];
+    private _whitelistSniper = [
+        "76561198100875033", // Pardonee
+        "76561198137339095" // denbodHD
+    ];
+    private _whitelistTankCrew = [
+        "76561198100875033", // Pardonee
+        "76561198137339095" // denbodHD
+    ];
 
     private _isUnauthorized = false;
     private _reason = "";
