@@ -21,10 +21,7 @@ KPLIB_arsenalWeapons = [
 ];
 
 KPLIB_arsenalMagazines = [
-];
-
-KPLIB_arsenalItems = [
-    // Default Grenades
+        // Default Grenades
     "ACE_M14",
     "rhs_mag_an_m14_th3",
     "rhs_mag_an_m8hc",
@@ -88,8 +85,10 @@ KPLIB_arsenalItems = [
     "rhs_mag_rgn",
     "rhs_mag_rgo",
     "CUP_HandGrenade_RGO",
-    "MiniGrenade",
+    "MiniGrenade"
+];
 
+KPLIB_arsenalItems = [
     // USP FACE WEAR
     // USP M12
     "USP_RAID_BLK",
