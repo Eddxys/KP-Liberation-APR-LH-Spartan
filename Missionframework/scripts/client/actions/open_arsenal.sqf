@@ -92,17 +92,7 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
             [player, [profileNamespace, _loaded_loadout]] call BIS_fnc_loadInventory;
         };
 
-        // Enforce blacklist after loadout is applied
-        private _blacklistedItems = KPLIB_arsenalBlacklist;
-        {
-            private _item = _x;
-            if (primaryWeapon player == _item) then { player removeWeaponGlobal _item; };
-            if (secondaryWeapon player == _item) then { player removeWeaponGlobal _item; };
-            if (handgunWeapon player == _item) then { player removeWeaponGlobal _item; };
-            if (player hasWeapon _item) then { player removeWeaponGlobal _item; };
-            player removeItems _item;
-            player removeMagazines _item;
-        } forEach _blacklistedItems;
+        [player] execVM "scripts\client\actions\filterLoadout.sqf";
 
         if (KPLIB_param_useArsenalPreset) then {
             if ([_backpack] call KPLIB_fnc_checkGear) then {

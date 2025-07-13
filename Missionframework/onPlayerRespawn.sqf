@@ -29,6 +29,8 @@ if (isNil "KPLIB_respawn_loadout") then {
 
 [] call KPLIB_fnc_addActionsPlayer;
 
+[_newUnit] execVM "scripts\client\actions\filterLoadout.sqf";
+
 // Support Module handling
 if ([
     false,
