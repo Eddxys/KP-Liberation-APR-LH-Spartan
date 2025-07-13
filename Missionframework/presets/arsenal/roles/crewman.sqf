@@ -1146,9 +1146,6 @@ KPLIB_arsenalItems append [
     "USP_RUGBY_G3C_USA_GRY_MTN",
     "USP_RUGBY_G3C_USA_GRY_MM14",
 
-    // TCGM Helmet
-    "TCGM_Helmet_Viper_O_UHex",
-
     // TCGM Uniforms
     "TCGM_CombatFatigues_MTP_Bra",
     "TCGM_CombatFatigues_tna_Bra",

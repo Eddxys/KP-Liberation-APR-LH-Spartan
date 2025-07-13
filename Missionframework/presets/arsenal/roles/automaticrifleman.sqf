@@ -2647,9 +2647,6 @@ KPLIB_arsenalItems append [
     "USP_OPSCORE_FASTMT_FCV_OD_TW",
     "USP_OPSCORE_FASTMT_FCV_OD_W",
 
-    // TCGM Helmet
-    "TCGM_Helmet_Viper_O_UHex",
-
     // TCGM Uniforms
     "TCGM_CombatFatigues_MTP_Bra",
     "TCGM_CombatFatigues_tna_Bra",

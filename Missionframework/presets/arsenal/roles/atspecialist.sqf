@@ -4,6 +4,9 @@ KPLIB_arsenalWeapons append [
     // CUP Javelin
     "CUP_launch_Javelin",
 
+    // CUP Metis
+    "CUP_launch_Metis",
+
     // FIM-92F
     "rhs_weap_fim92",
 
@@ -469,6 +472,9 @@ KPLIB_arsenalMagazines append [
 
     // CUP Javelin
     "CUP_Javelin_M",
+
+    // CUP Metis
+    "CUP_AT13_M",
 
     // FIM-92F
     "rhs_fim92_mag",
@@ -3106,9 +3112,6 @@ KPLIB_arsenalItems append [
     "USP_OPSCORE_FASTMT_FCV_OD_T",
     "USP_OPSCORE_FASTMT_FCV_OD_TW",
     "USP_OPSCORE_FASTMT_FCV_OD_W",
-
-    // TCGM Helmet
-    "TCGM_Helmet_Viper_O_UHex",
 
     // TCGM Uniforms
     "TCGM_CombatFatigues_MTP_Bra",
