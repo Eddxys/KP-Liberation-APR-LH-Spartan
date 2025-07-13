@@ -72,6 +72,5 @@ KPLIB_arsenalItems append [
 
 KPLIB_arsenalBackpacks append [
     // Backpacks
-    // Backpacks
     "ACE_NonSteerableParachute"
 ];
