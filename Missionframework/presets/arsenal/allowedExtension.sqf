@@ -67,6 +67,15 @@ KPLIB_arsenalAllowedExtension = [
     "ACE_LIB_FireCord",
     "ACE_PlottingBoard",
     "ACE_WaterBottle",
+    "ACE_SpareBarrel",
+
+    // ACE Spraypaint
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     
     //ACE End
 
@@ -82,6 +91,22 @@ KPLIB_arsenalAllowedExtension = [
     "ACE_Yardage450",
     "rhssaf_zrak_rd7j",
 
+    // Ciggarettes
+    "cigs_Apollo_cigpack",
+    "cigs_black_devil_cigpack",
+    "cigs_cigars_cigarbox_5",
+    "cigs_craven_cigpack",
+    "cigs_eckstein_cigpack",
+    "cigs_Kosmos_cigpack",
+    "cigs_lighter",
+    "cigs_pops_poppack",
+    "cigs_lucky_strike_cigpack",
+    "cigs_matches",
+    "cigs_morley_cigpack",
+    "cigs_baja_blast_cigpack",
+    "cigs_crayons_crayonpack",
+    "cigs_Voron_cigpack",
+
     //CUP Start
     "CUP_NVG_GPNVG_black",
     "CUP_NVG_GPNVG_black_WP",
@@ -93,6 +118,28 @@ KPLIB_arsenalAllowedExtension = [
     "CUP_NVG_GPNVG_winter_WP",
 
     //CUP End
+
+    //RHS Shemagh
+    "rhsusf_shemagh_base",
+    "rhsusf_shemagh_white",
+    "rhsusf_shemagh_tan",
+    "rhsusf_shemagh_od",
+    "rhsusf_shemagh_grn",
+    "rhsusf_shemagh_gogg_base",
+    "rhsusf_shemagh_gogg_white",
+    "rhsusf_shemagh_gogg_tan",
+    "rhsusf_shemagh_gogg_od",
+    "rhsusf_shemagh_gogg_grn",
+    "rhsusf_shemagh2_base",
+    "rhsusf_shemagh2_white",
+    "rhsusf_shemagh2_tan",
+    "rhsusf_shemagh2_od",
+    "rhsusf_shemagh2_grn",
+    "rhsusf_shemagh2_gogg_base",
+    "rhsusf_shemagh2_gogg_white",
+    "rhsusf_shemagh2_gogg_tan",
+    "rhsusf_shemagh2_gogg_od",
+    "rhsusf_shemagh2_gogg_grn",
 
     //USP Start    
     "USP_ACC_GPNVG18_BLK",
@@ -149,6 +196,50 @@ KPLIB_arsenalAllowedExtension = [
     "USP_GPNVG18_WP_GM_TAR_TAN",
 
     //Vanilla Start
+
+    // Vanilla Shades
+    "G_Tactical_Gear",
+    "G_Tactical_Black",
+    "G_Spectacles_Tinted",
+    "G_Combat",
+    "G_Combat_Goggles_tna_F",
+
+    // Vanilla Balaclava
+    "G_Balaclava_blk",
+    "G_Balaclava_oli",
+    "G_Balaclava_combat",
+    "G_Balaclava_lowprofile",
+    "G_Balaclava_TI_blk_F",
+    "G_Balaclava_TI_tna_F",
+    "G_Balaclava_TI_G_blk_F",
+    "G_Balaclava_TI_G_tna_F",
+    "G_Balaclava_Flecktarn",
+    "G_Balaclava_Tropentarn",
+    "G_Balaclava_Scarecrow_01",
+    "G_Balaclava_Halloween_01",
+    "G_Balaclava_BlueStrips",
+    "G_Balaclava_Flames1",
+    "G_Balaclava_Skull1",
+
+    // Vanilla Bandana
+    "G_Bandanna_blk",
+    "G_Bandanna_oli",
+    "G_Bandanna_khk",
+    "G_Bandanna_tan",
+    "G_Bandanna_beast",
+    "G_Bandanna_shades",
+    "G_Bandanna_sport",
+    "G_Bandanna_aviator",
+    "G_Bandanna_Vampire_01",
+    "G_Bandanna_CandySkull",
+    "G_Bandanna_BlueFlame1",
+    "G_Bandanna_BlueFlame2",
+    "G_Bandanna_RedFlame1",
+    "G_Bandanna_OrangeFlame1",
+    "G_Bandanna_Skull1",
+    "G_Bandanna_Skull2",
+    "G_Bandanna_Syndikat1",
+    "G_Bandanna_Syndikat2",
 
 
     //Vanilla End
