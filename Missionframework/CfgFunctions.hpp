@@ -36,6 +36,7 @@ class KPLIB {
         class getBluforRatio            {};
         class getCommander              {};
         class getCrateHeight            {};
+        class getFobCount               {};
         class getFobName                {};
         class getFobResources           {};
         class getGroupType              {};
