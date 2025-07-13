@@ -29,7 +29,7 @@ KPLIB_b_fobBuilding = "Land_Cargo_HQ_V1_F";                                    /
 KPLIB_b_fobBox = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
 KPLIB_b_fobTruck = "rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy";            // This is the FOB as a vehicle.
 KPLIB_b_arsenal = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-KPLIB_b_mobileRespawn = "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy";   // This is the mobile respawn (and medical) truck.
+KPLIB_b_mobileRespawn = ["rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy", "rksla3_lcvpmk5_1_generic_grey"];   // This is the mobile respawn (and medical) truck.
 KPLIB_b_potato01 = "RHS_CH_47F";                                          // This is Potato 01, a multipurpose mobile respawn as a helicopter.
 KPLIB_b_crewUnit = "rhsusf_army_ocp_combatcrewman";                    // This defines the crew for vehicles.
 KPLIB_b_heliPilotUnit = "rhsusf_army_ocp_helipilot";                          // This defines the pilot for helicopters.
@@ -297,8 +297,9 @@ KPLIB_b_vehSupport = [
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0],                                  // Huron Ammo
-    [(KPLIB_b_mobileRespawn select 3),200,0,100],                       // LCVP Mk5
-    ["rksla3_lcvpmk5_viv_generic_grey",200,0,100]                       // LCVP Mk5 ViV
+    [KPLIB_b_mobileRespawn select 0, 450, 0, 250],  // FMTV Medical
+    [KPLIB_b_mobileRespawn select 1, 200, 0, 100],  // LCVP Mk5
+    ["rksla3_lcvpmk5_viv_generic_grey", 200, 0, 100]  // LCVP Mk5 ViV
 ];
 
 /*
