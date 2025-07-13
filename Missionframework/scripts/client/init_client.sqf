@@ -75,17 +75,6 @@
     };
 };
 
-// Init the lockGroups.sqf script
-[] spawn {
-    waitUntil { !isNull player };
-    [] execVM "scripts\client\ui\lockGroups.sqf";
-};
-
-player addEventHandler ["Respawn", {
-    [] execVM "scripts\client\ui\lockGroups.sqf";
-}];
-
-
 [] call compile preprocessFileLineNumbers "scripts\client\misc\init_markers.sqf";
 [] call KPLIB_fnc_initArsenal;
 
@@ -182,6 +171,12 @@ if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
         [] call KPLIB_fnc_tutorial;
     };
 };
+
+// Add event handler for enforcing groups
+["playerRespawn", {
+    params ["_unit"];
+    [_unit] execVM "scripts\client\ui\enforceGroups.sqf";
+}] call CBA_fnc_addEventHandler;
 
 if ((KPLIB_param_zeusLimited) && (isClass (configfile >> "CfgPatches" >> "zen_context_actions"))) then {
     ["HealUnits"] call zen_context_menu_fnc_removeAction;
