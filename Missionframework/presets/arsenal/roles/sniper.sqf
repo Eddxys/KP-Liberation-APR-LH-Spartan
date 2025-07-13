@@ -21,7 +21,14 @@ KPLIB_arsenalWeapons append [
     "CUP_srifle_SVD_des_top_rail",
     "CUP_srifle_SVD_top_rail",
     "CUP_srifle_SVD_wdl",
-    "CUP_srifle_SVD_wdl_top_rail"
+    "CUP_srifle_SVD_wdl_top_rail",
+
+        //Handguns
+    "CUP_hgun_FlareGun",
+    "CUP_hgun_M9",
+    "CUP_hgun_M9A1",
+    "CUP_hgun_M9_snds"
+
 ];
 
 KPLIB_arsenalMagazines append [
@@ -51,7 +58,12 @@ KPLIB_arsenalMagazines append [
     "CUP_5Rnd_762x67_M2010_M",
     "CUP_5Rnd_TE1_Red_Tracer_762x67_M2010_M",
     "10Rnd_338_Mag",
-    "CUP_10Rnd_762x54_SVD_M"
+    "CUP_10Rnd_762x54_SVD_M",
+
+    //Sidearm Magazine
+    "CUP_FlareWhite_265_M",
+    "CUP_15Rnd_9x19_M9"
+
 ];
 
 KPLIB_arsenalItems append [
