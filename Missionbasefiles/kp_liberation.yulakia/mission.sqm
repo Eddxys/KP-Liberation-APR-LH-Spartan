@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=138;
+		nextID=147;
 	};
 	class Camera
 	{
-		pos[]={733.08435,22.856544,469.28232};
-		dir[]={0.30067334,-0.74825895,-0.59137285};
-		up[]={0.33913082,0.66338694,-0.66700959};
-		aside[]={-0.89140928,1.2025703e-07,-0.45322222};
+		pos[]={761.95593,60.435978,468.35611};
+		dir[]={-0.62274629,-0.7790792,-0.07262636};
+		up[]={-0.77386075,0.62688518,-0.090251558};
+		aside[]={-0.11584245,2.1839514e-07,0.99329358};
 	};
 };
 binarizationWanted=0;
@@ -226,14 +226,14 @@ class Mission
 		class Item1
 		{
 			dataType="Trigger";
-			position[]={716.91187,14.773228,460.45825};
-			angle=6.1939669;
+			position[]={716.91199,14.773205,460.45801};
+			angle=6.193964;
 			class Attributes
 			{
 				condition="true";
 				timeout[]={1.5,1.5,1.5};
 				interuptable=1;
-				effectMusic="LeadTrack01_F";
+				effectMusic="LeadTrack02_F_Malden";
 			};
 			id=1;
 			type="EmptyDetector";
@@ -242,8 +242,8 @@ class Mission
 		class Item2
 		{
 			dataType="Trigger";
-			position[]={728.75171,13.630027,456.83325};
-			angle=6.1939669;
+			position[]={728.75201,13.630038,456.83301};
+			angle=6.193964;
 			class Attributes
 			{
 				condition="!(player in thislist)";
@@ -252,23 +252,23 @@ class Mission
 				timeout[]={0.2,0.2,0.2};
 				interuptable=1;
 				activationBy="WEST";
-				effectMusic="EventTrack01_F_Curator";
+				effectMusic="EventTrack02_F_Orange";
 			};
 			id=2;
 			type="EmptyDetector";
-			atlOffset=0.0079946518;
+			atlOffset=0.0080003738;
 		};
 		class Item3
 		{
 			dataType="Trigger";
-			position[]={740.97046,13.011345,463.95239};
-			angle=6.1939669;
+			position[]={740.96997,13.011426,463.952};
+			angle=6.193964;
 			class Attributes
 			{
 				condition="GRLIB_endgame == 1";
 				timeout[]={17,17,17};
 				interuptable=1;
-				effectMusic="LeadTrack03_F";
+				effectMusic="CUP_A2_Khe_Sanh_Riff";
 			};
 			id=3;
 			type="EmptyDetector";
