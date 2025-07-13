@@ -23,11 +23,12 @@ KPLIB_arsenalWeapons append [
     "CUP_srifle_SVD_wdl",
     "CUP_srifle_SVD_wdl_top_rail",
 
-        //Handguns
+    //Handguns
     "CUP_hgun_FlareGun",
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
-    "CUP_hgun_M9_snds"
+    "CUP_hgun_M9_snds",
+    "CUP_hgun_MP7"
 
 ];
 
@@ -62,7 +63,8 @@ KPLIB_arsenalMagazines append [
 
     //Sidearm Magazine
     "CUP_FlareWhite_265_M",
-    "CUP_15Rnd_9x19_M9"
+    "CUP_15Rnd_9x19_M9",
+    "CUP_20Rnd_46x30_MP7"
 
 ];
 
