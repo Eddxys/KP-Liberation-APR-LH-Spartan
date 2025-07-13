@@ -237,6 +237,9 @@ while {true} do {
             };
         };
 
+        // Remove their loadout on when redeploying to not mess with Restricted Arsenal
+        [player] execVM "scripts\client\actions\filterLoadout.sqf";
+
     };
 
     respawn_camera cameraEffect ["Terminate","back"];
