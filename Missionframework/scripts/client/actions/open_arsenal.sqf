@@ -84,29 +84,29 @@ if ( count _loadplayers > 0 ) then {
 
 while { dialog && (alive player) && edit_loadout == 0 } do {
 
-    if ( load_loadout > 0 ) then {
-        private _loaded_loadout = _loadouts_data select (lbCurSel 201);
-        if (KPLIB_ace_arsenal && KPLIB_param_arsenalType) then {
-           [player, _loaded_loadout select 1, KPLIB_fill_mags] call CBA_fnc_setLoadout;
-        } else {
-            [player, [profileNamespace, _loaded_loadout]] call BIS_fnc_loadInventory;
-        };
+    // if ( load_loadout > 0 ) then {
+    //     private _loaded_loadout = _loadouts_data select (lbCurSel 201);
+    //     if (KPLIB_ace_arsenal && KPLIB_param_arsenalType) then {
+    //        [player, _loaded_loadout select 1, KPLIB_fill_mags] call CBA_fnc_setLoadout;
+    //     } else {
+    //         [player, [profileNamespace, _loaded_loadout]] call BIS_fnc_loadInventory;
+    //     };
 
-        [player] execVM "scripts\client\actions\filterLoadout.sqf";
+    //     [player] execVM "scripts\client\actions\filterLoadout.sqf";
 
-        if (KPLIB_param_useArsenalPreset) then {
-            if ([_backpack] call KPLIB_fnc_checkGear) then {
-                hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
-            };
-        } else {
-            hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
-        };
+    //     if (KPLIB_param_useArsenalPreset) then {
+    //         if ([_backpack] call KPLIB_fnc_checkGear) then {
+    //             hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
+    //         };
+    //     } else {
+    //         hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
+    //     };
 
-        if ( exit_on_load == 1 ) then {
-            closeDialog 0;
-        };
-        load_loadout = 0;
-    };
+    //     if ( exit_on_load == 1 ) then {
+    //         closeDialog 0;
+    //     };
+    //     load_loadout = 0;
+    // };
 
     if ( respawn_loadout > 0 ) then {
         KPLIB_respawn_loadout = [ player, ["repetitive"] ] call KPLIB_fnc_getLoadout;
@@ -114,14 +114,14 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
         respawn_loadout = 0;
     };
 
-    if ( load_from_player >= 0 ) then {
-        private _playerselected = ( _loadplayers select load_from_player ) select 1;
-        if ( alive _playerselected ) then {
-            [player,  [_playerselected, ["repetitive"]] call KPLIB_fnc_getLoadout] call KPLIB_fnc_setLoadout;
-            hint format [ localize "STR_LOAD_PLAYER_LOADOUT_HINT", name _playerselected ];
-        };
-        load_from_player = -1;
-    };
+   // if ( load_from_player >= 0 ) then {
+       // private _playerselected = ( _loadplayers select load_from_player ) select 1;
+        //if ( alive _playerselected ) then {
+            //[player,  [_playerselected, ["repetitive"]] call KPLIB_fnc_getLoadout] call KPLIB_fnc_setLoadout;
+           // hint format [ localize "STR_LOAD_PLAYER_LOADOUT_HINT", name _playerselected ];
+       // };
+        //load_from_player = -1;
+    //};
 
     sleep 0.1;
 };
