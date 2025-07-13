@@ -32,7 +32,7 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_FlareGun",
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
-    "CUP_hgun_M9_snds",
+    "CUP_hgun_M9_snds"
 
 ];
 
