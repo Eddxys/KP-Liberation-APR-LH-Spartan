@@ -164,6 +164,13 @@ KPLIB_o_planes = [
     "rhs_pchela1t_vvsc"
 ];
 
+// Enemy boats that will need to spawn in water.
+KPLIB_o_boats = [
+    "O_T_Boat_Armed_01_hmg_F",                                           // Speedboat HMG
+    "O_T_Boat_Transport_01_F",
+    "rhs_bmk_t"
+];
+
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_HMG = [
     "rhs_KORD_high_MSV",
