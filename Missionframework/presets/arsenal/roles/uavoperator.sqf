@@ -452,6 +452,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
     "CUP_hgun_M9_snds",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
 
     //Launcher
     "rhs_weap_M136"

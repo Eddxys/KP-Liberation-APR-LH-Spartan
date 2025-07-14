@@ -53,6 +53,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_FlareGun",
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
     "CUP_hgun_M9_snds"
 ];
 
@@ -75,6 +78,19 @@ KPLIB_arsenalMagazines append [
     "rhsusf_mag_6Rnd_M411_HE",
     "rhsusf_mag_6Rnd_m4009",
     "rhsusf_mag_6Rnd_M576_Buckshot",
+
+    "rhs_GMD40",
+    "rhs_GRD40_Green",
+    "rhs_GRD40_Red",
+    "rhs_GRD40_White",
+    "rhs_VG40MD",
+    "rhs_VG40OP_green",
+    "rhs_VG40OP_red",
+    "rhs_VG40OP_white",
+    "rhs_VG40SZ",
+    "rhs_VG40TB",
+    "rhs_VOG25",
+    "rhs_VOG25P",
 
     // Rifle Magazines
     "CUP_30Rnd_556x45_PMAG_BLACK",
@@ -2847,6 +2863,14 @@ KPLIB_arsenalItems append [
     "Tier1_GripPod_MLOK_Black",
     "Tier1_Gangster_Grip_Black",
     "Tier1_Gangster_Grip_Tan",
+
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     //Muzzle Attachments
     "muzzle_snds_H",

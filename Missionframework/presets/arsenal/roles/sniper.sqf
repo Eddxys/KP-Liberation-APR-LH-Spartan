@@ -28,6 +28,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
     "CUP_hgun_M9_snds",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
     "CUP_hgun_MP7"
 
 ];
@@ -155,6 +158,14 @@ KPLIB_arsenalItems append [
     "Tier1_LeupoldM3A_Geissele_Docter_Black",
     "Tier1_LeupoldM3A_Geissele_Docter_Desert",
     "Tier1_LeupoldM3A_Geissele_Docter_Tan",
+    
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     // Noreen Bad News ULR 
     "ACE_muzzle_mzls_338",

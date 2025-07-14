@@ -68,6 +68,7 @@ KPLIB_arsenalAllowedExtension = [
     "ACE_PlottingBoard",
     "ACE_WaterBottle",
     "ACE_SpareBarrel",
+    "ACE_painkillers",
 
     // ACE Funny Bandaids
     "Dragon_HelloKitty_BasicBandage",

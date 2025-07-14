@@ -32,6 +32,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_FlareGun",
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
     "CUP_hgun_M9_snds"
 
 ];
@@ -75,6 +78,14 @@ KPLIB_arsenalItems append [
 
     // Vests
     "V_LegStrapBag_black_F",
+
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     // TFAR Items
     "TFAR_anprc152"                                                   // AN/PRC-152

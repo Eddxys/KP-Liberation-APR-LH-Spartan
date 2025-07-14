@@ -21,6 +21,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_FlareGun",
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
     "CUP_hgun_M9_snds"
 ];
 
@@ -3271,6 +3274,14 @@ KPLIB_arsenalItems append [
     "Tier1_416_NGAL_M603V_FL",
     "Tier1_416_NGAL_Top",
     "Tier1_416_NGAL_Side",
+
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     //Sight
     "CUP_optic_AC11704_Black",

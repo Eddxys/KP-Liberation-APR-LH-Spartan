@@ -453,6 +453,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
     "CUP_hgun_M9_snds",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
 
     //Launcher
     "rhs_weap_M136"
@@ -3342,6 +3345,14 @@ KPLIB_arsenalItems append [
     "Tier1_GripPod_MLOK_Black",
     "Tier1_Gangster_Grip_Black",
     "Tier1_Gangster_Grip_Tan",
+
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     //Muzzle Attachments
     "muzzle_snds_H",

@@ -452,6 +452,9 @@ KPLIB_arsenalWeapons append [
     "CUP_hgun_M9",
     "CUP_hgun_M9A1",
     "CUP_hgun_M9_snds",
+    "Tier1_P320",
+    "Tier1_P320_PMM",
+    "Tier1_P320_TB",
 
     //Launcher
     "rhs_weap_M136"
@@ -3402,6 +3405,14 @@ KPLIB_arsenalItems append [
     "CUP_muzzle_mfsup_SCAR_H",
     "CUP_muzzle_snds_XM8",
     "Tier1_SandmanS_Black",
+
+     // Scopes
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
+    "Tier1_SIG_Romeo1",
+    "optic_MRD",
+    "optic_MRD_black",
 
     //Laser
     "rhsusf_acc_anpeq15A",
