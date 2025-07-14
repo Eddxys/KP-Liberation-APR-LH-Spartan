@@ -173,6 +173,52 @@ player addEventHandler ["GetInMan", {
 player addEventHandler ["SeatSwitchedMan", {[_this select 2] call kp_vehicle_permissions;}];
 player addEventHandler ["HandleRating", {if ((_this select 1) < 0) then {0};}];
 
+// Add variable to commander on runtime (too lazy to add it in EDEN)
+if ((typeOf player) in ["B_officer_F"]) then {
+    player setVariable ["KPLIB_role", "commander", true];
+};
+
+player addEventHandler ["GetInMan", {
+    params ["_unit", "_position", "_vehicle", "_turret"];
+
+    // Safety: only run for local player
+    if (!local _unit) exitWith {};
+
+    // Allow passengers/gunners
+    if (!(_position in ["driver", "pilot", "commander"])) exitWith {};
+
+    // Get role
+    private _role = _unit getVariable ["KPLIB_role", ""];
+
+    // Get vehicle class
+    private _vehClass = typeOf _vehicle;
+
+    // Include permission map
+    #include "misc\vehiclePermissionsConfig.sqf"
+
+   // Traverse class inheritance to find a matching base class
+    private _allowedRoles = [];
+    private _class = _vehClass;
+
+    while {true} do {
+        if (_class in VEHICLE_ROLE_PERMISSIONS) exitWith {
+            _allowedRoles = VEHICLE_ROLE_PERMISSIONS get _class;
+        };
+        
+        // Walk up the class tree
+        _class = configName (inheritsFrom (configFile >> "CfgVehicles" >> _class));
+        
+        // No further parent class
+        if (_class == "" || isNil "_class") exitWith {};
+    };
+
+    // Kick player out if not allowed
+    if (!(_role in _allowedRoles)) then {
+        moveOut _unit;
+        hint format ["You don't know how to operate the %1.", getText(configFile >> "CfgVehicles" >> _vehClass >> "displayName")];
+    };
+}];
+
 // Disable stamina, if selected in parameter
 if (!KPLIB_param_fatigue) then {
     player enableStamina false;
