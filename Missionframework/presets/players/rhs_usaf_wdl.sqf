@@ -114,16 +114,24 @@ KPLIB_b_vehLight = [
 ];
 
 KPLIB_b_vehHeavy = [
+    ["B_LT_01_AA_F",180,50,80],                                         // AWC 302 Nyx (AA)
     ["rhsusf_m113_usarmy",200,40,100],                                  // M113A3 (M2)
     ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
     ["rhsusf_stryker_m1126_m2_wd",200,150,100],                         // M1126 Stryker (M2)
     ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
     ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
+    ["B_APC_Tracked_01_AA_F",330,150,230],                              // Bardelas (AA)
+    ["B_Truck_01_1c_F",370,210,260],                                    // HEMTT Praetorian
+    ["B_APC_Tracked_01_rcws_Centurion_F",450,270,150],                  // IFV-6b Centurion
+    ["B_APC_Tracked_01_rcws_Spartan_F",480,300,200],                    // IFV-6b Spartan
+    ["B_Truck_01_defender_F",800,550,350],                              // HEMTT Defender
+    ["B_MBT_01_AA_F",1250,1100,900],                                    // M5 Anti Air
     ["RHS_M6_wd",300,250,175],                                          // M6A2
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
     ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                     // M1A2SEPv1 (Tusk II)
-    ["rhsusf_m109_usarmy",600,1250,300]                                 // M109A6
+    ["rhsusf_m109_usarmy",600,1250,300],                                 // M109A6
+    ["rhsusf_M142_usarmy_WD",1500,1800,1300]                             // M142 HIMARS
 ];
 
 KPLIB_b_vehAir = [
@@ -138,11 +146,16 @@ KPLIB_b_vehAir = [
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
     ["RHS_UH60M_MEV2",300,0,150],                                       // UH-60M MEV2
+    ["RHS_UH60M_ESSS2_d",500,400,300],                                   // UH-60M (EWS)
+    ["RHS_UH60M_ESSS_d",550,600,200],                                   // UH-60M (ESSS)
+    ["RHS_UH60M_MEV_d",550,600,200],                                   // UH-60M MEV (ESSS)
     ["RHS_CH_47F_10",275,80,175],                                       // CH-47 Chinook (Armed)
     ["rhsusf_CH53E_USMC",300,0,175],                                    // CH-53E Super Stallion
     ["rhsusf_CH53E_USMC_GAU21",300,100,175],                            // CH-53E Super Stallion (GAU-21)
     ["USAF_C130J",200,0,250],                                           // C-130J Super Hercules
     ["USAF_C130J_Cargo",200,0,250],                                     // C-130J Super Hercules (Cargo)
+    ["RHS_C130J",200,100,250],                                          // C-130J
+    ["RHS_C130J_Cargo",200,50,230],                                     // C-130J (Cargo)
     ["USAF_C17",500,0,400],                                             // C-17 Globemaster III
     ["usaf_kc135",600,0,2500],                                          // KC-135 Stratotanker
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
@@ -177,7 +190,7 @@ KPLIB_b_vehStatic = [
     ["RHS_TOW_TriPod_WD",50,100,0],                                     // TOW (AT)
     ["RHS_Stinger_AA_pod_WD",50,100,0],                                 // Stinger (AA)
     ["RHS_M252_WD",80,150,0],                                           // Mk6 Mortar
-    ["RHS_M119_WD",100,200,0],                                          // M119A2
+    ["RHS_M119_WD",400,650,500],                                          // M119A2
     ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
 ];
 
@@ -418,5 +431,20 @@ KPLIB_b_vehToUnlock = [
     "JS_JC_FA18F",                                                      // F/A-18 F Super Hornet
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
     "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
-    "B_T_VTOL_01_armed_F"                                               // V-44 X Blackfish (Armed)
+    "B_T_VTOL_01_armed_F",                                               // V-44 X Blackfish (Armed)
+    "rhsusf_M142_usarmy_WD",                                             // M142 HIMARS
+    "RHS_M119_WD",                                                       // M119A2
+    "RHS_UH60M_ESSS",                                                 // UH-60M(ESSS)
+    "RHS_UH60M_ESSS2",                                                // UH-60M(EWS)
+    "RHS_UH60M_MEV",                                                  // UH-60M MEV (ESSS)
+    "RHS_C130J",                                                        // C-130J    
+    "RHS_C130J_Cargo",                                                  // C-130J (Cargo)
+    "B_APC_Tracked_01_AA_F",                                            // Bardelas
+    "B_Truck_01_1c_F",                                                  // HEMTT Praetorian
+    "B_Truck_01_defender_F",                                            // HEMTT Defender
+    "B_APC_Tracked_01_rcws_Centurion_F",                                // IFV-6b Centurion
+    "B_APC_Tracked_01_rcws_Spartan_F",                                  // IFV-6b Spartan
+    "B_MBT_01_AA_F",                                                     // M5 Anti Air
+    "B_SAM_System_02_F",                                                 // Mk-29 ESSM
+    "B_SAM_System_01_sand_F"                                                 // Mk49 Spartan
 ];
