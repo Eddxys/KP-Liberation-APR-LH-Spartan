@@ -119,6 +119,8 @@ KPLIB_b_vehHeavy = [
     ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
     ["rhsusf_stryker_m1126_m2_wd",200,150,100],                         // M1126 Stryker (M2)
+    ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
+    ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
     ["B_APC_Tracked_01_AA_F",330,150,230],                              // Bardelas (AA)
     ["B_Truck_01_1c_F",370,210,260],                                    // HEMTT Praetorian
     ["B_APC_Tracked_01_rcws_Centurion_F",450,270,150],                  // IFV-6b Centurion
