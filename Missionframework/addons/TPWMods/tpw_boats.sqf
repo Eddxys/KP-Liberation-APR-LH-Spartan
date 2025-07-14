@@ -40,7 +40,9 @@ _boatlist = [
 "C_Boat_Civil_01_F",
 "C_Boat_Civil_01_rescue_F",
 "c_boat_transport_02_f",
-"C_rubberboat"
+"C_rubberboat",
+"rhsgref_civ_canoe",
+"C_Scooter_Transport_01_F"
 ];
 	
 // Sampans on SE Asian Maps
