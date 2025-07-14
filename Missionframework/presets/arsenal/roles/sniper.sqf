@@ -205,6 +205,7 @@ KPLIB_arsenalItems append [
     "CUP_LRTV",
     "rhsusf_bino_leopold_mk4",
     "Rangefinder",
+    "CUP_SOFLAM",
 
     // TFAR Items
     "TFAR_anprc152"

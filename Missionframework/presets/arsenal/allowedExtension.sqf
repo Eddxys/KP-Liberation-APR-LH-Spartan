@@ -95,7 +95,6 @@ KPLIB_arsenalAllowedExtension = [
     //ACE End
 
     // Binoculars
-    "CUP_SOFLAM",
     "Binocular",
     "rhsusf_bino_m24",
     "rhsusf_bino_m24_ARD",
