@@ -45,6 +45,7 @@ KPLIB_arsenalMagazines append [
     "rhs_mag_9x19mm_7n21_20",
     "CUP_32Rnd_9x19_UZI_M",
     "CUP_7Rnd_45ACP_1911",
+    "Tier1_17Rnd_9x19_P320_FMJ",
 
     // Vanilla Standard Grenades & Explosives
     "B_IR_Grenade",                                                 // IR Grenade [NATO]

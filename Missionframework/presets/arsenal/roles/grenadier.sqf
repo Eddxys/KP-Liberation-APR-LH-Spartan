@@ -141,7 +141,8 @@ KPLIB_arsenalMagazines append [
 
     // Sidearm Magazine
     "CUP_FlareWhite_265_M",
-    "CUP_15Rnd_9x19_M9"
+    "CUP_15Rnd_9x19_M9",
+    "Tier1_17Rnd_9x19_P320_FMJ"
 
 
 ];
