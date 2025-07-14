@@ -119,8 +119,6 @@ KPLIB_b_vehHeavy = [
     ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
     ["rhsusf_stryker_m1126_m2_wd",200,150,100],                         // M1126 Stryker (M2)
-    ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
-    ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
     ["B_APC_Tracked_01_AA_F",330,150,230],                              // Bardelas (AA)
     ["B_Truck_01_1c_F",370,210,260],                                    // HEMTT Praetorian
     ["B_APC_Tracked_01_rcws_Centurion_F",450,270,150],                  // IFV-6b Centurion
@@ -446,5 +444,7 @@ KPLIB_b_vehToUnlock = [
     "B_APC_Tracked_01_rcws_Spartan_F",                                  // IFV-6b Spartan
     "B_MBT_01_AA_F",                                                     // M5 Anti Air
     "B_SAM_System_02_F",                                                 // Mk-29 ESSM
-    "B_SAM_System_01_sand_F"                                                 // Mk49 Spartan
+    "B_SAM_System_01_sand_F",                                                 // Mk49 Spartan
+    "RHS_M2A2_BUSKI_WD",                                                // M2A2ODS (Busk I)
+    "RHS_M2A3_BUSKIII_wd"                                               // M2A3 (Busk III)
 ];
