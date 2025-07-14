@@ -13,39 +13,28 @@
         "76561198100875033", // Pardonee
         "76561198137339095", // denbodHD
         "76561198355387339", // Metal
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198063454076" // HamstrD
     ];
     private _whitelistPilot = [
         "76561198100875033", // Pardonee
-        "76561198137339095", // denbodHD
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198137339095" // denbodHD
     ];
     private _whitelistFighterPilot = [
         "76561198100875033", // Pardonee
-        "76561198137339095", // denbodHD
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198137339095" // denbodHD
     ];
     private _whitelistUAVOperator = [
         "76561198100875033", // Pardonee
         "76561198137339095", // denbodHD
-        "76561198392002904", // Karl
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198392002904" // Karl
     ];
     private _whitelistSniper = [
         "76561198100875033", // Pardonee
-        "76561198137339095", // denbodHD
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198137339095" // denbodHD
     ];
     private _whitelistTankCrew = [
         "76561198100875033", // Pardonee
-        "76561198137339095", // denbodHD
-        "76561198063454076", // HamstrD
-        "76561198109606591" // Elon
+        "76561198137339095" // denbodHD
     ];
 
     private _isUnauthorized = false;
