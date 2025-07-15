@@ -4331,6 +4331,14 @@ KPLIB_arsenalBackpacks append [
     "USP_REEBOW_3DAP_ACC10_AOR1",
     "USP_REEBOW_3DAP_ACC10_AOR2",
 
+    // Spartan USP TFAR Backpacks
+    "USP_REEBOW_3DAP_ACC2_AOR2_TFAR",
+    "USP_REEBOW_3DAP_ACC2_MC_TFAR",
+    "USP_REEBOW_3DAP_ACC2_MCT_TFAR",
+    "USP_REEBOW_3DAP_ACC2_BLK_TFAR",
+    "USP_REEBOW_3DAP_ACC2_MCB_TFAR",
+    "USP_REEBOW_3DAP_ACC2_RGR_TFAR",
+
     // TFAR Backpacks
     "TFAR_anarc164",                                                  // AN/ARC-164
     "TFAR_anprc155_coyote",                                           // AN/PRC 155 Coyote
