@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=582;
+		nextID=588;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=165;
+		nextID=183;
 	};
 	class Camera
 	{
-		pos[]={730.09332,33.338573,484.5817};
-		dir[]={0.027625542,-0.71490484,-0.69874173};
-		up[]={0.028247653,0.69915134,-0.71440613};
-		aside[]={-0.99926704,3.3876859e-08,-0.039508767};
+		pos[]={735.12744,26.796494,472.16785};
+		dir[]={-0.53955877,-0.63533497,-0.55248517};
+		up[]={-0.44390184,0.77223158,-0.45453715};
+		aside[]={-0.71543145,7.4505806e-08,0.6986922};
 	};
 };
 binarizationWanted=0;
@@ -213,7 +213,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=49;
+		items=51;
 		class Item0
 		{
 			dataType="Marker";
@@ -227,7 +227,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={716.91199,14.773205,460.45801};
-			angle=6.1939631;
+			angle=6.1939626;
 			class Attributes
 			{
 				condition="true";
@@ -243,7 +243,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={728.75201,13.630038,456.83301};
-			angle=6.1939631;
+			angle=6.1939626;
 			class Attributes
 			{
 				condition="!(player in thislist)";
@@ -262,7 +262,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={740.96997,13.011426,463.952};
-			angle=6.1939631;
+			angle=6.1939626;
 			class Attributes
 			{
 				condition="GRLIB_endgame == 1";
@@ -1023,7 +1023,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];";
+						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Leader [WHITELIST]@Spartan 1";
 						isPlayable=1;
 					};
@@ -1098,7 +1098,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""medic""];";
+						init="this setVariable[""KPLIB_role"", ""medic""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Medic";
 						isPlayable=1;
 					};
@@ -1174,7 +1174,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""engineer""];";
+						init="this setVariable[""KPLIB_role"", ""engineer""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Engineer";
 						isPlayable=1;
 					};
@@ -1249,7 +1249,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""automaticrifleman""];";
+						init="this setVariable[""KPLIB_role"", ""automaticrifleman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Automatic Rifleman";
 						isPlayable=1;
 					};
@@ -1325,7 +1325,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="this setVariable[""KPLIB_role"", ""grenadier""];";
+						init="this setVariable[""KPLIB_role"", ""grenadier""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Grenadier/Team Leader";
 						isPlayable=1;
 					};
@@ -1399,7 +1399,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""atspecialist""];";
+						init="this setVariable[""KPLIB_role"", ""atspecialist""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Heavy Anti-Tank";
 						isPlayable=1;
 					};
@@ -1460,7 +1460,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""ltspecialist""];";
+						init="this setVariable[""KPLIB_role"", ""ltspecialist""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Light Anti-Tank";
 						isPlayable=1;
 					};
@@ -1521,7 +1521,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""rifleman""];";
+						init="this setVariable[""KPLIB_role"", ""rifleman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Rifleman";
 						isPlayable=1;
 					};
@@ -1583,7 +1583,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""squadleader""];";
+						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 1 Radio Telephone Operator";
 						isPlayable=1;
 					};
@@ -5219,7 +5219,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];";
+						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Leader [WHITELIST]@Spartan 2";
 						isPlayable=1;
 					};
@@ -5294,7 +5294,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""medic""];";
+						init="this setVariable[""KPLIB_role"", ""medic""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Medic";
 						isPlayable=1;
 					};
@@ -5356,7 +5356,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""engineer""];";
+						init="this setVariable[""KPLIB_role"", ""engineer""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Engineer";
 						isPlayable=1;
 					};
@@ -5417,7 +5417,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""automaticrifleman""];";
+						init="this setVariable[""KPLIB_role"", ""automaticrifleman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Automatic Rifleman";
 						isPlayable=1;
 					};
@@ -5479,7 +5479,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="this setVariable[""KPLIB_role"", ""grenadier""];";
+						init="this setVariable[""KPLIB_role"", ""grenadier""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Grenadier/Team Leader";
 						isPlayable=1;
 					};
@@ -5540,7 +5540,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""atspecialist""];";
+						init="this setVariable[""KPLIB_role"", ""atspecialist""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Heavy Anti-Tank";
 						isPlayable=1;
 					};
@@ -5601,7 +5601,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""ltspecialist""];";
+						init="this setVariable[""KPLIB_role"", ""ltspecialist""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Light Anti-Tank";
 						isPlayable=1;
 					};
@@ -5663,7 +5663,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""rifleman""];";
+						init="this setVariable[""KPLIB_role"", ""rifleman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Rifleman";
 						isPlayable=1;
 					};
@@ -5725,7 +5725,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""squadleader""];";
+						init="this setVariable[""KPLIB_role"", ""squadleader""];" \n "removeallWeapons this; removebackpack this;";
 						description="Spartan 2 Radio Telephone Operator";
 						isPlayable=1;
 					};
@@ -5830,7 +5830,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="this setVariable[""KPLIB_role"", ""sniper""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];";
+						init="this setVariable[""KPLIB_role"", ""sniper""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];" \n "removeallWeapons this; removebackpack this;";
 						description="Racon Squad Leader [WHITELIST]@Racon";
 						isPlayable=1;
 					};
@@ -5906,7 +5906,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""uavoperator""];";
+						init="this setVariable[""KPLIB_role"", ""uavoperator""];" \n "removeallWeapons this; removebackpack this;";
 						description="Racon Drone Operator [WHITELIST]";
 						isPlayable=1;
 					};
@@ -5968,7 +5968,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""sniper""];";
+						init="this setVariable[""KPLIB_role"", ""sniper""];" \n "removeallWeapons this; removebackpack this;";
 						description="Racon Radio Telephone Operator";
 						isPlayable=1;
 					};
@@ -6150,7 +6150,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="this setVariable[""KPLIB_role"", ""helicopterpilot""];";
+						init="this setVariable[""KPLIB_role"", ""helicopterpilot""];" \n "removeallWeapons this; removebackpack this;";
 						description="Pegasus Co-Pilot [WHITELIST]";
 						isPlayable=1;
 					};
@@ -6225,7 +6225,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""medic""];";
+						init="this setVariable[""KPLIB_role"", ""medic""];" \n "removeallWeapons this; removebackpack this;";
 						description="Pegasus Medic";
 						isPlayable=1;
 					};
@@ -6287,7 +6287,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setVariable[""KPLIB_role"", ""engineer""];";
+						init="this setVariable[""KPLIB_role"", ""engineer""];" \n "removeallWeapons this; removebackpack this;";
 						description="Pegasus Engineer";
 						isPlayable=1;
 					};
@@ -6380,7 +6380,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="this setVariable[""KPLIB_role"", ""fighterpilot""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];";
+						init="this setVariable[""KPLIB_role"", ""fighterpilot""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];" \n "removeallWeapons this; removebackpack this;";
 						description="Fighter Pilot [WHITELIST]@Thunder";
 						isPlayable=1;
 					};
@@ -6485,7 +6485,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="this setVariable[""KPLIB_role"", ""crewman""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];";
+						init="this setVariable[""KPLIB_role"", ""crewman""];" \n "this setVariable[""KPLIB_lockLeader"", true, true];" \n "removeallWeapons this; removebackpack this;";
 						description="Brother Commander [WHITELIST]@Brother";
 						isPlayable=1;
 					};
@@ -6560,7 +6560,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="this setVariable[""KPLIB_role"", ""crewman""];";
+						init="this setVariable[""KPLIB_role"", ""crewman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Brother Support Gunner [WHITELIST]";
 						isPlayable=1;
 					};
@@ -6634,7 +6634,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""crewman""];";
+						init="this setVariable[""KPLIB_role"", ""crewman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Brother Main Gunner [WHITELIST]";
 						isPlayable=1;
 					};
@@ -6708,7 +6708,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setVariable[""KPLIB_role"", ""crewman""];";
+						init="this setVariable[""KPLIB_role"", ""crewman""];" \n "removeallWeapons this; removebackpack this;";
 						description="Brother Driver [WHITELIST]";
 						isPlayable=1;
 					};
@@ -6793,6 +6793,40 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1177.4259,1.0253217,681.10956};
+				angles[]={0,1.5974475,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="speedboat_0";
+			};
+			id=584;
+			type="Land_ClutterCutter_small_F";
+			atlOffset=4.5231662;
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1177.054,0.8145771,692.74097};
+				angles[]={0,1.522154,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="speedboat_1";
+			};
+			id=585;
+			type="Land_ClutterCutter_small_F";
+			atlOffset=4.8645773;
 		};
 	};
 	class Connections
