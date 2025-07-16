@@ -70,6 +70,7 @@ KPLIB_arsenalAllowedExtension = [
     "ACE_SpareBarrel",
     "ACE_painkillers",
     "ACE_Flashlight_XL50",
+    "ACE_Flashlight_MX991",
 
     // ACE Funny Bandaids
     "Dragon_HelloKitty_BasicBandage",
