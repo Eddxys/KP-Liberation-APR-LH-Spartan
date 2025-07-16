@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=183;
+		nextID=192;
 	};
 	class Camera
 	{
-		pos[]={735.12744,26.796494,472.16785};
-		dir[]={-0.53955877,-0.63533497,-0.55248517};
-		up[]={-0.44390184,0.77223158,-0.45453715};
-		aside[]={-0.71543145,7.4505806e-08,0.6986922};
+		pos[]={719.98914,27.886663,473.78705};
+		dir[]={0.54475379,-0.67305589,-0.50026751};
+		up[]={0.49574077,0.73957741,-0.45525616};
+		aside[]={-0.67640227,-1.1036173e-07,-0.7365489};
 	};
 };
 binarizationWanted=0;
@@ -840,7 +840,7 @@ class Mission
 						rank="COLONEL";
 						init="removeallWeapons this; removebackpack this;";
 						name="commandant";
-						description="Platoon Commander [WHITELIST]@Godfather";
+						description="Platoon Commander [WHITELIST]@Olympus";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -997,7 +997,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Godfather";
+							value="Olympus";
 						};
 					};
 				};
@@ -6231,6 +6231,7 @@ class Mission
 					};
 					id=565;
 					type="B_medic_F";
+					atlOffset=-9.5367432e-07;
 					class CustomAttributes
 					{
 						class Attribute0
