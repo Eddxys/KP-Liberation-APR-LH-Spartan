@@ -236,10 +236,6 @@ while {true} do {
                 [player, [profileNamespace, _selectedLoadout]] call BIS_fnc_loadInventory;
             };
         };
-
-        // Remove their loadout on when redeploying to not mess with Restricted Arsenal
-        [player] execVM "scripts\client\actions\filterLoadout.sqf";
-
     };
 
     respawn_camera cameraEffect ["Terminate","back"];

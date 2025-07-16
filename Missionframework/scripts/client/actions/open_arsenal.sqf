@@ -92,8 +92,6 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
             [player, [profileNamespace, _loaded_loadout]] call BIS_fnc_loadInventory;
         };
 
-        [player] execVM "scripts\client\actions\filterLoadout.sqf";
-
         if (KPLIB_param_useArsenalPreset) then {
             if ([_backpack] call KPLIB_fnc_checkGear) then {
                 hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
@@ -101,9 +99,6 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
         } else {
             hint format [ localize "STR_HINT_LOADOUT_LOADED", _loaded_loadout param [0]];
         };
-
-        // Remove their loadout on when redeploying to not mess with Restricted Arsenal
-        [player] execVM "scripts\client\actions\filterLoadout.sqf";
 
         if ( exit_on_load == 1 ) then {
             closeDialog 0;
@@ -123,8 +118,6 @@ while { dialog && (alive player) && edit_loadout == 0 } do {
             [player,  [_playerselected, ["repetitive"]] call KPLIB_fnc_getLoadout] call KPLIB_fnc_setLoadout;
            hint format [ localize "STR_LOAD_PLAYER_LOADOUT_HINT", name _playerselected ];
        };
-       // Remove their loadout on when redeploying to not mess with Restricted Arsenal
-        [player] execVM "scripts\client\actions\filterLoadout.sqf";
         load_from_player = -1;
     };
 
