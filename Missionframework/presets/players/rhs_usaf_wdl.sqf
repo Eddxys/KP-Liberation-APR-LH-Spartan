@@ -402,6 +402,13 @@ KPLIB_b_squadPara = [
     "rhsusf_army_ocp_rifleman_101st"
 ];
 
+// Light infantry vehicle squad.
+KPLIB_b_squadVeh = [
+    "rhsusf_army_ucp_teamleader",
+    "rhsusf_army_ucp_rifleman",
+    "rhsusf_army_ucp_rifleman"
+];
+
 /*
     --- Vehicles to unlock ---
     Classnames below have to be unlocked by capturing military bases.

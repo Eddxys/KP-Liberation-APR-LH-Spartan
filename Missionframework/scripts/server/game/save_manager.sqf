@@ -120,7 +120,7 @@ addMissionEventHandler ["PlayerConnected", {
             };
         } forEach _existingData;
 
-        _grp = createGroup [KPLIB_side_player, true];
+        _grp = group _unit;
         [_unit] joinSilent (_grp);
 
         if (KPLIB_param_playerMenu == 2) then {

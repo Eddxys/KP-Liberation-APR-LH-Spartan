@@ -33,6 +33,7 @@ KPLIB_o_aaSpecialist = "rhs_msv_emr_aa";                                // AA Sp
 KPLIB_o_medic = "rhs_msv_emr_medic";                                    // Combat Life Saver
 KPLIB_o_engineer = "rhs_msv_emr_engineer";                              // Engineer
 KPLIB_o_paratrooper = "rhs_msv_emr_RShG2";                              // Paratrooper
+KPLIB_o_expSpecialist = "rhssaf_army_o_m93_oakleaf_summer_exp";         // Explosive specialist
 
 // Enemy vehicles used by secondary objectives.
 KPLIB_o_mrap = "rhs_tigr_msv";                                          // GAZ-233011
