@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=192;
+		nextID=201;
 	};
 	class Camera
 	{
-		pos[]={719.98914,27.886663,473.78705};
-		dir[]={0.54475379,-0.67305589,-0.50026751};
-		up[]={0.49574077,0.73957741,-0.45525616};
-		aside[]={-0.67640227,-1.1036173e-07,-0.7365489};
+		pos[]={1139.5157,50.672157,598.23761};
+		dir[]={0.45504877,-0.81063694,-0.36857527};
+		up[]={0.62993437,0.58552998,-0.51022547};
+		aside[]={-0.62942237,-1.3737008e-07,-0.77709192};
 	};
 };
 binarizationWanted=0;
@@ -1722,11 +1722,12 @@ class Mission
 		class Item15
 		{
 			dataType="Marker";
-			position[]={1172.8141,4.3069363,566.28638};
+			position[]={1172.814,4.3070002,566.28601};
 			name="huronmarker";
-			text="Spartan 01";
+			text="Athena 01";
 			type="b_air";
 			id=61;
+			atlOffset=8.72612e-05;
 		};
 		class Item16
 		{
