@@ -35,6 +35,7 @@ KPLIB_b_crewUnit = "rhsusf_army_ocp_combatcrewman";                    // This d
 KPLIB_b_heliPilotUnit = "rhsusf_army_ocp_helipilot";                          // This defines the pilot for helicopters.
 KPLIB_b_addHeli = "RHS_MELB_MH6M";                          // These are the additional helicopters which spawn on the Freedom or at Chimera base.
 KPLIB_b_addBoat = "B_Boat_Transport_01_F";                         // These are the boats which spawn at the stern of the Freedom.
+KPLIB_b_addSpeedBoat = "rhsgref_hidf_rhib";                         // Add some speedboats to spawn aswell.
 KPLIB_b_logiTruck = "rhsusf_M977A4_BKIT_usarmy_wd";                 // These are the trucks which are used in the logistic convoy system.
 KPLIB_b_smallStorage = "ContainmentArea_02_sand_F";             // A small storage area for resources.
 KPLIB_b_largeStorage = "ContainmentArea_01_sand_F";             // A large storage area for resources.
