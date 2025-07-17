@@ -120,8 +120,17 @@ addMissionEventHandler ["PlayerConnected", {
             };
         } forEach _existingData;
 
+        // fix broken saving yeh
         _grp = group _unit;
-        [_unit] joinSilent (_grp);
+        
+        if (!local _grp) then {
+            _grp = createGroup [KPLIB_side_player, true];
+            [_unit] joinSilent _grp;
+        };
+
+        {
+            if (!isPlayer _x) then { deleteVehicle _x };
+        } forEach units _grp;
 
         if (KPLIB_param_playerMenu == 2) then {
             _leader = leader _grp;
