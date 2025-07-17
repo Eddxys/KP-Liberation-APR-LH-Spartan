@@ -26,11 +26,13 @@
     private _whitelistUAVOperator = [
         "76561198100875033", // Pardonee
         "76561198137339095", // denbodHD
-        "76561198392002904" // Karl
+        "76561198392002904", // Karl
+        "76561198063454076" // HamstrD
     ];
     private _whitelistSniper = [
         "76561198100875033", // Pardonee
-        "76561198137339095" // denbodHD
+        "76561198137339095", // denbodHD
+        "76561198063454076" // HamstrD
     ];
     private _whitelistTankCrew = [
         "76561198100875033", // Pardonee
