@@ -489,6 +489,9 @@ KPLIB_arsenalMagazines append [
     // FIM-92F
     "rhs_fim92_mag",
 
+    // M47 Dragon
+    "CUP_Dragon_EP1_M",
+
     // Magazines
     "CUP_30Rnd_Subsonic_762x39_AK103_bakelite_M",
     "CUP_30Rnd_TE1_Red_Tracer_762x39_AK103_bakelite_M",
