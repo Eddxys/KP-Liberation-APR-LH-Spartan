@@ -10,6 +10,9 @@ KPLIB_arsenalWeapons append [
     // FIM-92F
     "rhs_weap_fim92",
 
+    // M47 Dragon
+    "CUP_launch_M47",
+
      //Rifle
     "CUP_arifle_AK15_Base",
     "CUP_arifle_AK15_VG_Base",
@@ -485,6 +488,9 @@ KPLIB_arsenalMagazines append [
 
     // FIM-92F
     "rhs_fim92_mag",
+
+    // M47 Dragon
+    "CUP_Dragon_EP1_M",
 
     // Magazines
     "CUP_30Rnd_Subsonic_762x39_AK103_bakelite_M",

@@ -10,9 +10,6 @@ KPLIB_arsenalWeapons append [
     // RHS-7V2
     "rhs_weap_rpg7",
 
-    // M47 Dragon
-    "CUP_launch_M47",
-
      //Rifle
     "CUP_arifle_AK15_Base",
     "CUP_arifle_AK15_VG_Base",
@@ -485,9 +482,6 @@ KPLIB_arsenalMagazines append [
     "rhs_mag_maaws_HEDP",
     "rhs_mag_maaws_HEAT",
     "rhs_optic_maaws",
-
-    // M47 Dragon
-    "CUP_Dragon_EP1_M",
 
     // RHS MK153
     "rhsusf_acc_ACOG2_USMC",
