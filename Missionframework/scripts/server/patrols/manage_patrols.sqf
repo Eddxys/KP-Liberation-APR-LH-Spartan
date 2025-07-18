@@ -10,8 +10,8 @@ if ( KPLIB_param_unitcap > 1.3 ) then { _combat_triggers_infantry = [0,5,10,20,3
 
 sleep 5;
 
-waitUntil { sleep 0.3; !isNil "KPLIB_sectors_player" };
-waitUntil { sleep 0.3; count KPLIB_sectors_player > 3 };
+waitUntil { sleep 1; !isNil "KPLIB_sectors_player" };
+waitUntil { sleep 1; count KPLIB_sectors_player > 3 };
 
 KPLIB_active_enemy_patrols = 0;
 
