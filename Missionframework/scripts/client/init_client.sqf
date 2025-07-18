@@ -17,7 +17,8 @@
     ];
     private _whitelistPilot = [
         "76561198100875033", // Pardonee
-        "76561198137339095" // denbodHD
+        "76561198137339095", // denbodHD
+        "76561198063454076" // HamstrD
     ];
     private _whitelistFighterPilot = [
         "76561198100875033", // Pardonee
@@ -36,7 +37,8 @@
     ];
     private _whitelistTankCrew = [
         "76561198100875033", // Pardonee
-        "76561198137339095" // denbodHD
+        "76561198137339095", // denbodHD
+        "76561198063454076" // HamstrD
     ];
 
     private _isUnauthorized = false;
