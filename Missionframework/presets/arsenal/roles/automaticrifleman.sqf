@@ -169,6 +169,29 @@ KPLIB_arsenalMagazines append [
     "CUP_100Rnd_TE1_Red_Tracer_762x54_PKT_M",
     "CUP_100Rnd_TE1_Yellow_Tracer_762x54_PKT_M",
     "CUP_100Rnd_TE1_Green_Tracer_762x54_PKT_M",
+
+    // ACE HMG Ammo boxes
+    "ace_csw_50Rnd_127x108_mag",
+    "ace_csw_100Rnd_127x99_mag",
+    "ace_csw_100Rnd_127x99_mag_green",
+    "ace_csw_100Rnd_127x99_mag_red",
+    "ace_csw_100Rnd_127x99_mag_yellow",
+
+    // ACE GMG Ammo boxes
+    "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M1001",
+    "ace_compat_rhs_usf3_48Rnd_40mm_MK19",
+    "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M430A1",
+    "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M430I",
+
+    // ACE Tow Missiles
+    "ace_compat_rhs_usf3_mag_TOW",
+    "ace_compat_rhs_usf3_mag_TOWB",
+    "ace_compat_rhs_usf3_mag_ITOW",
+    "ace_compat_rhs_usf3_mag_TOW2",
+    "ace_compat_rhs_usf3_mag_TOW2A",
+    "ace_compat_rhs_usf3_mag_TOW2b",
+    "ace_compat_rhs_usf3_mag_TOW2b_aero",
+    "ace_compat_rhs_usf3_mag_TOW2bb",
     
     //Sidearm Magazine
     "CUP_FlareWhite_265_M",
@@ -3856,6 +3879,15 @@ KPLIB_arsenalItems append [
 ];
 
 KPLIB_arsenalBackpacks append [
+    // RHS Gun Bags
+    "RHS_M2_Gun_Bag",
+    "RHS_M2_Tripod_Bag",
+    "RHS_M2_MiniTripod_Bag",
+    "RHS_Mk19_Gun_Bag",
+    "RHS_Mk19_Tripod_Bag",
+    "rhs_Tow_Gun_Bag",
+    "rhs_Tow_Gun_Bag",
+
     // Backpacks
     "USP_REEBOW_3DAP_BLK",
     "USP_REEBOW_3DAP_CBR",

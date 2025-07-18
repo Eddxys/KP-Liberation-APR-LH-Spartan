@@ -10,6 +10,9 @@ KPLIB_arsenalWeapons append [
     // FIM-92F
     "rhs_weap_fim92",
 
+    // M47 Dragon
+    "CUP_launch_M47",
+
      //Rifle
     "CUP_arifle_AK15_Base",
     "CUP_arifle_AK15_VG_Base",
