@@ -415,30 +415,17 @@ KPLIB_b_squadVeh = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 KPLIB_b_vehToUnlock = [
-    "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aim_tuski_wd",                                          // M1A1SA (Tusk I)
+    "RHS_M2A2_BUSKI_WD",                                               // M2A3 (Busk I)
+    "RHS_M2A3_BUSKIII_wd",                                               // M2A3 (Busk III)
     "rhsusf_m1a2sep1tuskiiwd_usarmy",                                   // M1A2SEPv1 (Tusk II)
     "rhsusf_m109_usarmy",                                               // M109A6
     "RHS_AH64D_wd",                                                     // AH-64D (Multi-Role)
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
     "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
     "B_UAV_05_F",                                                       // UCAV Sentinel
-    "USAF_MQ9",                                                         // MQ-9 Reaper
-    "USAF_A10",                                                         // A-10C Thunderbolt II
-    "USAF_F22",                                                         // F-22A Raptor
-    "USAF_F22_EWP_AA",                                                  // F-22A Raptor (EWP-AA)
-    "USAF_F22_EWP_AG",                                                  // F-22A Raptor (EWP-AG)
-    "USAF_F22_Heavy",                                                   // F-22A Raptor (Heavy)
-    "USAF_F35A_STEALTH",                                                // F-35A Lightning II
-    "USAF_F35A",                                                        // F-35A Lightning II (Heavy)
     "RHS_A10",                                                          // A-10A (CAS)
-    "FIR_F15C",                                                         // F-15C Eagle
-    "FIR_F15D",                                                         // F-15D Eagle
-    "FIR_F15E",                                                         // F-15E Strike Eagle
-    "JS_JC_FA18E",                                                      // F/A-18 E Super Hornet
-    "JS_JC_FA18F",                                                      // F/A-18 F Super Hornet
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
-    "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
     "B_T_VTOL_01_armed_F",                                               // V-44 X Blackfish (Armed)
     "rhsusf_M142_usarmy_WD",                                             // M142 HIMARS
     "RHS_M119_WD",                                                       // M119A2
@@ -446,15 +433,5 @@ KPLIB_b_vehToUnlock = [
     "RHS_UH60M_ESSS2",                                                // UH-60M(EWS)
     "RHS_UH60M_MEV",                                                  // UH-60M MEV (ESSS)
     "RHS_C130J",                                                        // C-130J    
-    "RHS_C130J_Cargo",                                                  // C-130J (Cargo)
-    "B_APC_Tracked_01_AA_F",                                            // Bardelas
-    "B_Truck_01_1c_F",                                                  // HEMTT Praetorian
-    "B_Truck_01_defender_F",                                            // HEMTT Defender
-    "B_APC_Tracked_01_rcws_Centurion_F",                                // IFV-6b Centurion
-    "B_APC_Tracked_01_rcws_Spartan_F",                                  // IFV-6b Spartan
-    "B_MBT_01_AA_F",                                                     // M5 Anti Air
-    "B_SAM_System_02_F",                                                 // Mk-29 ESSM
-    "B_SAM_System_01_sand_F",                                                 // Mk49 Spartan
-    "RHS_M2A2_BUSKI_WD",                                                // M2A2ODS (Busk I)
-    "RHS_M2A3_BUSKIII_wd"                                               // M2A3 (Busk III)
+    "RHS_C130J_Cargo"                                                  // C-130J (Cargo)
 ];
