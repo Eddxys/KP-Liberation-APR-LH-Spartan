@@ -285,7 +285,7 @@ class Params {
         title = $STR_PARAM_ZEUSADDENEMIES;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class HighCommand {
         title = $STR_PARAM_HIGHCOMMAND;
