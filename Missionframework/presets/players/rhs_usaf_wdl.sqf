@@ -147,9 +147,9 @@ KPLIB_b_vehAir = [
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
     ["RHS_UH60M_MEV2",300,0,150],                                       // UH-60M MEV2
-    ["RHS_UH60M_ESSS2_d",500,400,300],                                   // UH-60M (EWS)
-    ["RHS_UH60M_ESSS_d",550,600,200],                                   // UH-60M (ESSS)
-    ["RHS_UH60M_MEV_d",550,600,200],                                   // UH-60M MEV (ESSS)
+    ["RHS_UH60M_ESSS2",500,400,300],                                   // UH-60M (EWS)
+    ["RHS_UH60M_ESSS",550,600,200],                                   // UH-60M (ESSS)
+    ["RHS_UH60M_MEV",550,600,200],                                   // UH-60M MEV (ESSS)
     ["RHS_CH_47F_10",275,80,175],                                       // CH-47 Chinook (Armed)
     ["rhsusf_CH53E_USMC",300,0,175],                                    // CH-53E Super Stallion
     ["rhsusf_CH53E_USMC_GAU21",300,100,175],                            // CH-53E Super Stallion (GAU-21)
@@ -178,7 +178,6 @@ KPLIB_b_vehAir = [
     ["USAF_F35A_STEALTH",2250,2000,750],                                // F-35A Lightning II
     ["USAF_F35A",2250,2250,750],                                        // F-35A Lightning II (Heavy)
     ["B_Plane_Fighter_01_F",1500,1750,450],                             // F/A-181 Black Wasp II
-    ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                     // F/A-181 Black Wasp II (Stealth)
     ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
     ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
     ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
