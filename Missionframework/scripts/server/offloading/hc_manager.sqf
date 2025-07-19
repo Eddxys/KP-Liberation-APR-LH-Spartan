@@ -14,6 +14,6 @@ sector_guerilla = compile preprocessFileLineNumbers "scripts\server\asymmetric\r
 asym_sector_ambush = compile preprocessFileLineNumbers "scripts\server\asymmetric\random\asym_sector_ambush.sqf";
 civinfo_task = compile preprocessFileLineNumbers "scripts\server\civinformant\tasks\civinfo_task.sqf";
 
-execVM "scripts\client\misc\synchronise_vars_deltaClient.sqf";
+execVM "scripts\client\misc\synchronise_vars.sqf";
 execVM "scripts\client\misc\synchronise_eco.sqf";
 execVM "scripts\server\offloading\show_fps.sqf";
