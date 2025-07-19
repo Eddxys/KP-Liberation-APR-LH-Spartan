@@ -136,7 +136,7 @@ execVM "scripts\client\misc\broadcast_squad_colors.sqf";
 execVM "scripts\client\misc\permissions_warning.sqf";
 if (!KPLIB_ace_refuel) then {execVM "scripts\client\misc\resupply_manager.sqf";};
 execVM "scripts\client\misc\secondary_jip.sqf";
-execVM "scripts\client\misc\synchronise_vars.sqf";
+execVM "scripts\client\misc\synchronise_vars_deltaClient.sqf";
 execVM "scripts\client\misc\synchronise_eco.sqf";
 execVM "scripts\client\misc\playerNamespace.sqf";
 execVM "scripts\client\spawn\redeploy_manager.sqf";
