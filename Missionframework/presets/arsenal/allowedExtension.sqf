@@ -212,6 +212,7 @@ KPLIB_arsenalAllowedExtension = [
     "USP_GPNVG18_WP_GM_TAR_TAN",
 
     //Vanilla Start
+    "ItemWatch",
 
     // Vanilla Shades
     "G_Tactical_Gear",
