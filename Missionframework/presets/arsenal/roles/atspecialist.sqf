@@ -13,6 +13,10 @@ KPLIB_arsenalWeapons append [
     // M47 Dragon
     "CUP_launch_M47",
 
+    // ACE Spike LR
+    "ace_spike_launcher",
+    "ace_spike_launcher_olive",
+
     // CUP M4A1 WEAPONS
     "CUP_arifle_M4A1_SOMMOD_black",
     "CUP_arifle_M4A1_SOMMOD_tan",
@@ -34,6 +38,17 @@ KPLIB_arsenalWeapons append [
     "CUP_arifle_M4A1_SOMMOD_ACOG_snds_tan",
     "CUP_arifle_M4A1_SOMMOD_ELCAN_snds_green",
     "CUP_arifle_M4A1_SOMMOD_RD_green",
+
+    // CUP R11 RSASS
+    "CUP_srifle_RSASS_BASE",
+    "CUP_srifle_RSASS_Black",
+    "CUP_srifle_RSASS_WDL",
+    "CUP_srifle_RSASS_WDLNet",
+    "CUP_srifle_RSASS_Sand",
+    "CUP_srifle_RSASS_Dazzle",
+    "CUP_srifle_RSASS_Winter",
+    "CUP_srifle_RSASS_Jungle",
+    "CUP_srifle_RSASS_Black_LRPS_Flashlight",
 
      //Rifle
     "CUP_arifle_AK15_Base",
@@ -514,6 +529,9 @@ KPLIB_arsenalMagazines append [
     // M47 Dragon
     "CUP_Dragon_EP1_M",
 
+    // ACE Spike LR Magazine
+    "ace_spike_lr",
+
     // Magazines
     "CUP_30Rnd_Subsonic_762x39_AK103_bakelite_M",
     "CUP_30Rnd_TE1_Red_Tracer_762x39_AK103_bakelite_M",
@@ -584,6 +602,15 @@ KPLIB_arsenalMagazines append [
     "CUP_FlareWhite_265_M",
     "CUP_15Rnd_9x19_M9",
     "Tier1_17Rnd_9x19_P320_FMJ",
+
+    // TIER 1 20RND 762X51
+    "Tier1_20Rnd_762x51_M118_Special_SR25_Mag",
+    "Tier1_20Rnd_762x51_M993_SR25_Mag",
+    "Tier1_20Rnd_762x51_M61_AP_SR25_Mag",
+    "Tier1_20Rnd_762x51_M62_SR25_Mag",
+    "Tier1_20Rnd_762x51_M80_ball_SR25_Mag",
+    "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
+    "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
 
     // Tier 1 Magazines
     "Tier1_30Rnd_762x35_300BLK_PMAG"

@@ -23,6 +23,17 @@ KPLIB_arsenalWeapons append [
     "CUP_arifle_M4A1_SOMMOD_ELCAN_snds_green",
     "CUP_arifle_M4A1_SOMMOD_RD_green",
 
+    // CUP R11 RSASS
+    "CUP_srifle_RSASS_BASE",
+    "CUP_srifle_RSASS_Black",
+    "CUP_srifle_RSASS_WDL",
+    "CUP_srifle_RSASS_WDLNet",
+    "CUP_srifle_RSASS_Sand",
+    "CUP_srifle_RSASS_Dazzle",
+    "CUP_srifle_RSASS_Winter",
+    "CUP_srifle_RSASS_Jungle",
+    "CUP_srifle_RSASS_Black_LRPS_Flashlight",
+
     //Rifle
     "CUP_arifle_AK15_Base",
     "CUP_arifle_AK15_VG_Base",
@@ -558,6 +569,15 @@ KPLIB_arsenalMagazines append [
     "CUP_FlareWhite_265_M",
     "CUP_15Rnd_9x19_M9",
     "Tier1_17Rnd_9x19_P320_FMJ",
+
+    // TIER 1 20RND 762X51
+    "Tier1_20Rnd_762x51_M118_Special_SR25_Mag",
+    "Tier1_20Rnd_762x51_M993_SR25_Mag",
+    "Tier1_20Rnd_762x51_M61_AP_SR25_Mag",
+    "Tier1_20Rnd_762x51_M62_SR25_Mag",
+    "Tier1_20Rnd_762x51_M80_ball_SR25_Mag",
+    "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
+    "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
 
     // Tier 1 Magazines
     "Tier1_30Rnd_762x35_300BLK_PMAG"
