@@ -586,11 +586,6 @@ KPLIB_arsenalMagazines append [
     "Tier1_30Rnd_762x35_300BLK_PMAG"
 ];
 
-KPLIB_arsenalMagazines append [
-    // Magazines
-    "CUP_30Rnd_556x45_PMAG_OD"
-];
-
 KPLIB_arsenalItems append [
     // Diving Gear
     "U_B_Wetsuit",
