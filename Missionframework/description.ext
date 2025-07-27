@@ -172,7 +172,7 @@ enableDebugConsole = 1;
 // 0 - based on player's options
 // 1 - enabled (advanced mode)
 // 2 - disabled (default flight mode)
-forceRotorLibSimulation = 1;
+forceRotorLibSimulation = 0;
 
 // By default a new player is not auto assigned a free playable slot in the mission lobby in Multiplayer.
 // Disable this setting to make him auto assigned to the side with least players.
