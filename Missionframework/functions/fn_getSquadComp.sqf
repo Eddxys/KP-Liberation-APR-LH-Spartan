@@ -25,6 +25,12 @@ if (_type == "army") then {
     private _selected = false;
     private _randomchance = 0;
     _squadcomp = KPLIB_o_squadStd;
+
+    // // 30% chance to spawn sniper squad alone
+    if (random 1 < 0.3) then {
+        _squadcomp = KPLIB_o_squadSniper;
+    };
+
     if (random 1 < 0.2) then {
         _squadcomp = KPLIB_o_squadStd2;
     };
