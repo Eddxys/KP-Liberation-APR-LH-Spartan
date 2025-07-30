@@ -193,7 +193,8 @@ KPLIB_b_vehStatic = [
     ["RHS_Stinger_AA_pod_WD",50,100,0],                                 // Stinger (AA)
     ["RHS_M252_WD",80,150,0],                                           // Mk6 Mortar
     ["RHS_M119_WD",400,650,500],                                          // M119A2
-    ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
+    ["B_SAM_System_03_F",250,500,0],                                     // MIM-145 Defender
+    ["B_Ship_MRLS_01_F",10000,7500,8000]                                // VLS Cruise Missile
 ];
 
 KPLIB_b_objectsDeco = [
@@ -434,5 +435,6 @@ KPLIB_b_vehToUnlock = [
     "RHS_UH60M_ESSS2",                                                // UH-60M(EWS)
     "RHS_UH60M_MEV",                                                  // UH-60M MEV (ESSS)
     "RHS_C130J",                                                        // C-130J    
-    "RHS_C130J_Cargo"                                                  // C-130J (Cargo)
+    "RHS_C130J_Cargo",                                                  // C-130J (Cargo)
+    "B_Ship_MRLS_01_F"                                                  // VLS Cruise Missile
 ];
