@@ -81,6 +81,9 @@ KPLIB_arsenalMagazines append [
     "CUP_5Rnd_127x108_KSVK_M",
     "CUP_5Rnd_86x70_L115A1",
 
+    // Vanilla laser batteries
+    "Laserbatteries",
+
     //Sidearm Magazine
     "CUP_FlareWhite_265_M",
     "CUP_15Rnd_9x19_M9",

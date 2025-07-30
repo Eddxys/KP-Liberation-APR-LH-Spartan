@@ -86,6 +86,7 @@ KPLIB_b_infantry = [
 
 KPLIB_b_vehLight = [
     ["B_Quadbike_01_F",50,0,25],                                        // Quad Bike
+    ["rhsusf_mrzr4_d",75,0,25],                                         // MRZR 4
     ["rhsusf_m1025_w",100,0,50],                                        // M1025A2
     ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
