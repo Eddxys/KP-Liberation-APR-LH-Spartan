@@ -92,6 +92,7 @@ KPLIB_b_vehLight = [
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
     ["rhsusf_m998_w_2dr_fulltop",100,0,50],                             // M1097A2 (2D)
     ["rhsusf_m998_w_2dr_halftop",100,0,50],                             // M1097A2 (2D / open back)
+    ["rhsusf_m1165a1_gmv_m134d_m240_socom_d",120,0,75],                 // M1165A1 GMV
     ["rhsusf_M1220_usarmy_wd",120,0,60],                                // M1220
     ["rhsusf_M1220_M2_usarmy_wd",120,40,60],                            // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_wd",120,60,60],                          // M1220 (Mk19)
