@@ -12,6 +12,27 @@ if (KPLIB_param_wipe_savegame_1 == 1 && KPLIB_param_wipe_savegame_2 == 1) then {
     ["No save wipe", "SAVE"] call KPLIB_fnc_log;
 };
 
+// Save on player disconnect or UI
+if (hasInterface) then {
+    [] spawn {
+        waitUntil {!isNull findDisplay 46};
+        (findDisplay 46) displayAddEventHandler ["Unload", {
+            if (!isServer) exitWith {};
+            ["Player server exit. Saving mission data.", "SAVE"] call KPLIB_fnc_log;
+            [] call KPLIB_fnc_doSave;
+        }];
+    };
+} else {
+    addMissionEventHandler ["HandleDisconnect", {
+        if !(allPlayers isEqualTo []) exitWith {false};
+        params ["_unit"];
+        deleteVehicle _unit;
+        ["Last player disconnected. Saving mission data.", "SAVE"] call KPLIB_fnc_log;
+        [] call KPLIB_fnc_doSave;
+    }];
+};
+
+// Save on mission end
 addMissionEventHandler ["Ended", {
     ["Mission ended. Saving mission data.", "SAVE"] call KPLIB_fnc_log;
     KPLIB_sectors_player = KPLIB_sectors_player - KPLIB_sectorsUnderAttack;
