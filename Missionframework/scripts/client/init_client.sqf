@@ -249,8 +249,8 @@ if (!KPLIB_param_fatigue) then {
 
 // Reduce aim precision coefficient, if selected in parameter
 if (!KPLIB_param_weaponSway) then {
-    player setCustomAimCoef 0.1;
-    player addEventHandler ["Respawn", {player setCustomAimCoef 0.1;}];
+    player setCustomAimCoef 0;
+    player addEventHandler ["Respawn", {player setCustomAimCoef 0;}];
 };
 
 execVM "scripts\client\ui\intro.sqf";
