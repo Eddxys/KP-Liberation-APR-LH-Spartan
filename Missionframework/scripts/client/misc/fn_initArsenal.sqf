@@ -45,11 +45,11 @@ if (KPLIB_param_useArsenalPreset) then {
     };
     [] call compile preprocessFileLineNumbers "presets\arsenal\allowedExtension.sqf";
 
-    private _playerRole = player getVariable ["KPLIB_role", ""];
+    // private _playerRole = player getVariable ["KPLIB_role", ""];
 
-    if (_playerRole isNotEqualTo "") then {
-        [] call compile preprocessFileLineNumbers format ["presets\arsenal\roles\%1.sqf", _playerRole];
-    };
+    // if (_playerRole isNotEqualTo "") then {
+    //     [] call compile preprocessFileLineNumbers format ["presets\arsenal\roles\%1.sqf", _playerRole];
+    // };
 
     private _crawled = [] call KPLIB_fnc_crawlAllItems;
 
