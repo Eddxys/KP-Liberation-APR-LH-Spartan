@@ -255,23 +255,6 @@ KPLIB_arsenalBlacklist = [
     "Eyegore_Facewear",
     "Eyegore_Facewear2",
     "Eyegore_Facewear3",
-    "charred_legRhandL_Camo",
+    "charred_legRhandL_Camo"
     // ^ Dismemberment Mod Blacklist
-    "rhs_weap_fgm148",
-    "rhs_weap_fim92",
-    "CUP_launch_Javelin",
-    "CUP_Javelin_M",
-    "B_UAFPV_IED_AP_Bag",
-    "I_UAFPV_IED_AP_Bag",
-    "O_UAFPV_IED_AP_Bag",
-    "B_UAFPV_OG7V_AP_Bag",
-    "I_UAFPV_OG7V_AP_Bag",
-    "O_UAFPV_OG7V_AP_Bag",
-    "B_UAFPV_PG7VL_AT_Bag",
-    "I_UAFPV_PG7VL_AT_Bag",
-    "O_UAFPV_PG7VL_AT_Bag",
-    "B_UAFPV_RKG_AP_Bag",
-    "I_UAFPV_RKG_AP_Bag",
-    "O_UAFPV_RKG_AP_Bag"
-    // ^ Role Restricted Stuff
 ];
