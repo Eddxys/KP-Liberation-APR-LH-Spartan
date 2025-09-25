@@ -23,12 +23,22 @@ if (hasInterface) then {
         }];
     };
 } else {
-    addMissionEventHandler ["HandleDisconnect", {
-        if !(allPlayers isEqualTo []) exitWith {false};
+     addMissionEventHandler ["HandleDisconnect", {
         params ["_unit"];
-        deleteVehicle _unit;
-        ["Last player disconnected. Saving mission data.", "SAVE"] call KPLIB_fnc_log;
-        [] call KPLIB_fnc_doSave;
+
+        if ((allPlayers - entities "HeadlessClient_F") isEqualTo []) then {
+            [] spawn {
+                sleep 1;
+
+                if ((allPlayers - entities "HeadlessClient_F") isEqualTo []) then {
+                    if (!isNull _unit) then { deleteVehicle _unit };
+                    ["Last player disconnected. Saving mission data.", "SAVE"] call KPLIB_fnc_log;
+                    [] call KPLIB_fnc_doSave;
+                };
+            };
+        };
+
+        false
     }];
 };
 
