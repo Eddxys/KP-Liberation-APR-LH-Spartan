@@ -157,8 +157,8 @@ KPLIB_b_vehAir = [
     ["rhsusf_CH53E_USMC_GAU21",300,100,175],                            // CH-53E Super Stallion (GAU-21)
     ["USAF_C130J",200,0,250],                                           // C-130J Super Hercules
     ["USAF_C130J_Cargo",200,0,250],                                     // C-130J Super Hercules (Cargo)
-    ["RHS_C130J",200,100,250],                                          // C-130J
-    ["RHS_C130J_Cargo",200,50,230],                                     // C-130J (Cargo)
+    ["RHS_C130J",200,0,250],                                          // C-130J
+    ["RHS_C130J_Cargo",200,0,230],                                     // C-130J (Cargo)
     ["USAF_C17",500,0,400],                                             // C-17 Globemaster III
     ["usaf_kc135",600,0,2500],                                          // KC-135 Stratotanker
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
@@ -182,7 +182,9 @@ KPLIB_b_vehAir = [
     ["B_Plane_Fighter_01_F",1500,1750,450],                             // F/A-181 Black Wasp II
     ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
     ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
-    ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
+    ["B_T_VTOL_01_vehicle_F",750,0,500],                                // V-44 X Blackfish (Vehicle)
+    ["FIR_F15EX",10,10,10],                                             // F-15 EX
+    ["FIR_F16C",10,10,10]                                               // F-16 C
 ];
 
 KPLIB_b_vehStatic = [
