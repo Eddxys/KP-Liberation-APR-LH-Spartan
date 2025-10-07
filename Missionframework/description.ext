@@ -231,7 +231,6 @@ class CfgFunctions {
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
     #include "addons\AIDrivingControl\cfgfunctions.hpp"
-    #include "addons\Vcom\cfgFunctions.hpp"
 };
 
 class CfgRemoteExec
