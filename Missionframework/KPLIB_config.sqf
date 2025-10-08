@@ -219,16 +219,16 @@ KPLIB_distance_sector = KPLIB_range_sectorCapture + KPLIB_range_fob;
 KPLIB_cap_playerSide = 150;
 
 // Cap for enemy units.
-KPLIB_cap_enemySide = 180;
+KPLIB_cap_enemySide = 80;
 
 // Cap for enemy battlegroups.
-KPLIB_cap_battlegroup = 150;
+KPLIB_cap_battlegroup = 60;
 
 // Cap for enemy patrols.
-KPLIB_cap_patrol = 150;
+KPLIB_cap_patrol = 60;
 
 // Size of enemy battlegroups.
-KPLIB_battlegroup_size = 6;
+KPLIB_battlegroup_size = 4;
 
 // Cap for civilian vehicles traveling between sectors.
 KPLIB_civilians_amount = 12;
