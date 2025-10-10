@@ -60,8 +60,7 @@ KPLIB_o_militiaInfantry = [
     "rhs_msv_emr_arifleman",                                            // Autorifleman
     "rhs_msv_emr_marksman",                                             // Marksman
     "rhs_msv_emr_medic",                                                // Medic
-    "rhs_msv_emr_engineer",                                              // Engineer
-    "rhs_msv_emr_aa"
+    "rhs_msv_emr_engineer"                                              // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
